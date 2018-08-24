@@ -1,0 +1,133 @@
+.main {
+  background-image: radial-gradient(
+    circle farthest-corner at 12.3% 19.3%,
+    rgba(85, 88, 218, 1) 0%,
+    rgba(95, 209, 249, 1) 100.2%
+  );
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px 0px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.navbar__logo {
+  text-decoration: none;
+  color: white;
+  padding-left: 20px;
+}
+
+.navbar__item {
+  text-decoration: none;
+  color: white;
+  padding-right: 25px;
+  letter-spacing: 1.1px;
+  font-size: 0.9em;
+}
+
+.navbar__item:hover {
+  opacity: 0.7;
+}
+
+.navbar__brand {
+  display: flex;
+}
+
+.navbar__items--right {
+  display: flex;
+  margin-left: auto;
+}
+
+.logo {
+  width: 20px;
+  padding-left: 8px;
+  margin-bottom: 0;
+}
+
+.navbar__toggle {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar__items--right,
+  .navbar__logo,
+  .navbar__brand,
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar__items--right {
+    margin-left: 0;
+    display: none;
+  }
+  .navbar__logo {
+    padding-left: 10px;
+  }
+  .navbar__toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+  }
+  /* .navbar__toggle--show {
+    display: flex;
+  } */
+}
+
+/* ========================== */
+/* HEADER */
+/* ========================== */
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  padding: 8% 2% 10% 2%;
+}
+
+.header__title {
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  font-size: 3rem;
+}
+
+.header__slogan {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.header img {
+  max-width: 100%;
+  height: auto;
+}
+
+.header button {
+  height: 40px;
+  width: 200px;
+  border-radius: 3px;
+  background: #00d103;
+  border: 2px solid #00d103;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 1.1px;
+  box-shadow: 0 2px 5px 0 rgba(40, 44, 186, 0.14);
+}
+
+.header button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .header__title {
+    font-size: 1.8rem;
+  }
+  .header__slogan {
+    font-size: 0.8rem;
+  }
+  .header img {
+    display: none;
+  }
+}
