@@ -115,6 +115,11 @@
   box-shadow: 0 2px 5px 0 rgba(40, 44, 186, 0.14);
 }
 
+.btn__link {
+  text-decoration: none;
+  color: white;
+}
+
 .header button:hover {
   opacity: 0.8;
   cursor: pointer;

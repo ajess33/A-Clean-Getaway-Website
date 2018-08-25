@@ -50,7 +50,11 @@ class Header extends React.Component {
                 <h4 className="header__slogan">
                   We Don't Cut Corners, We Clean Them!
                 </h4>
-                <button>GET A QUOTE</button>
+                <button>
+                  <Link className="btn__link" to="/contact/">
+                    GET A QUOTE
+                  </Link>
+                </button>
               </div>
               <img src={logo} alt="Illustration of a leaf" />
             </div>
