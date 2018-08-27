@@ -1,30 +1,30 @@
 .main {
-  background-image: radial-gradient(
-    circle farthest-corner at 12.3% 19.3%,
-    rgba(85, 88, 218, 1) 0%,
-    rgba(95, 209, 249, 1) 100.2%
-  );
+  background-color: #2ca3ff;
+  background-image: linear-gradient(106deg, #1eccff, #3c72ff);
+  font-weight: lighter;
 }
 
 .navbar {
   display: flex;
   justify-content: space-evenly;
-  padding: 15px 0px;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  padding: 20px 0px;
+  /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4); */
+  color: white;
 }
 
 .navbar__logo {
   text-decoration: none;
-  color: white;
   padding-left: 20px;
+  color: white;
+  font-weight: lighter;
 }
 
 .navbar__item {
   text-decoration: none;
-  color: white;
-  padding-right: 25px;
+  padding-right: 35px;
   letter-spacing: 1.1px;
-  font-size: 0.9em;
+  font-size: 0.8em;
+  color: white;
 }
 
 .navbar__item:hover {
@@ -41,7 +41,7 @@
 }
 
 .logo {
-  width: 20px;
+  width: 30px;
   padding-left: 8px;
   margin-bottom: 0;
 }
@@ -82,20 +82,22 @@
 .header {
   display: flex;
   justify-content: space-evenly;
-  color: white;
+  color: #f5f5f5;
   padding: 8% 2% 10% 2%;
 }
 
 .header__title {
   margin-bottom: 10px;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15); */
   font-size: 3rem;
+  font-weight: lighter;
 }
 
 .header__slogan {
   margin-top: 10px;
-  margin-bottom: 40px;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  margin-bottom: 50px;
+  /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15); */
+  font-weight: lighter;
 }
 
 .header img {
@@ -103,25 +105,28 @@
   height: auto;
 }
 
-.header button {
+.header a {
   height: 40px;
   width: 200px;
-  border-radius: 3px;
-  background: #00d103;
-  border: 2px solid #00d103;
+  border-radius: 2px;
+  background: transparent;
+  border: 2px solid white;
+  padding: 10px 20px;
   color: white;
   font-size: 16px;
-  letter-spacing: 1.1px;
+  letter-spacing: 1.5px;
   box-shadow: 0 2px 5px 0 rgba(40, 44, 186, 0.14);
+  /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15); */
+  font-weight: lighter;
 }
 
 .btn__link {
   text-decoration: none;
-  color: white;
 }
 
-.header button:hover {
-  opacity: 0.8;
+.header a:hover {
+  background: white;
+  color: #2ca3ff;
   cursor: pointer;
 }
 

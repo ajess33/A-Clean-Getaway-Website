@@ -1,12 +1,26 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import styled from 'styled-components'
+import { FaCheckCircle } from 'react-icons/fa'
 
-const SecondPage = () => (
-  <div>
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
-  </div>
-)
+const Wrapper = styled.div`
+  width: 100%;
+  padding: 8% 12%;
+  color: #4a5155;
+`
 
-export default SecondPage
+const Title = styled.h2`
+  width: 40%;
+`
+
+class Services extends React.Component {
+  render() {
+    return (
+      <Wrapper>
+        <Title>What You Can Expect</Title>
+      </Wrapper>
+    )
+  }
+}
+
+export default Services

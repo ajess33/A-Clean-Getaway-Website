@@ -11,7 +11,7 @@ class Header extends React.Component {
           <nav className="navbar__brand">
             <div>
               <Link className="navbar__logo" exact to="/">
-                <strong>A Clean Getaway</strong>
+                A Clean Getaway
                 <img className="logo" src={logo} alt="leaf logo" />
               </Link>
             </div>
@@ -48,13 +48,12 @@ class Header extends React.Component {
               <div>
                 <h1 className="header__title">A Clean Getaway, LLC</h1>
                 <h4 className="header__slogan">
-                  We Don't Cut Corners, We Clean Them!
+                  <em>"We Don't Cut Corners, We Clean Them!"</em>
                 </h4>
-                <button>
-                  <Link className="btn__link" to="/contact/">
-                    GET A QUOTE
-                  </Link>
-                </button>
+
+                <Link className="btn__link" to="/contact/">
+                  GET A QUOTE
+                </Link>
               </div>
               <img src={logo} alt="Illustration of a leaf" />
             </div>
