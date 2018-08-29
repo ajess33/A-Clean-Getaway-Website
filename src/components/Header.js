@@ -1,7 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import '../styles/header.css'
-import logo from '../assets/leaf-icon-180.png'
+import SmallLogo from '../assets/logo-small.png'
+import MedLogo from '../assets/logo-medium.png'
 
 class Header extends React.Component {
   render() {
@@ -12,7 +13,7 @@ class Header extends React.Component {
             <div>
               <Link className="navbar__logo" exact to="/">
                 A Clean Getaway
-                <img className="logo" src={logo} alt="leaf logo" />
+                <img className="logo" src={SmallLogo} alt="leaf logo" />
               </Link>
             </div>
             <div className="navbar__item navbar__toggle">
@@ -55,7 +56,7 @@ class Header extends React.Component {
                   GET A QUOTE
                 </Link>
               </div>
-              <img src={logo} alt="Illustration of a leaf" />
+              <img src={MedLogo} alt="Illustration of a leaf" />
             </div>
           </header>
         </div>

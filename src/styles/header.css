@@ -1,34 +1,33 @@
 .main {
-  background-color: #2ca3ff;
-  background-image: linear-gradient(106deg, #1eccff, #3c72ff);
-  font-weight: lighter;
+  background-color: #224264;
 }
 
 .navbar {
   display: flex;
   justify-content: space-evenly;
+  align-items: baseline;
   padding: 20px 0px;
-  /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4); */
-  color: white;
+  color: #e9eef3;
+  letter-spacing: 1.3px;
 }
 
 .navbar__logo {
   text-decoration: none;
   padding-left: 20px;
-  color: white;
+  color: #e9eef3;
   font-weight: lighter;
 }
 
 .navbar__item {
   text-decoration: none;
-  padding-right: 35px;
-  letter-spacing: 1.1px;
+  margin-right: 35px;
   font-size: 0.8em;
-  color: white;
+  color: #e9eef3;
 }
 
+/* DOESNT WORK */
 .navbar__item:hover {
-  opacity: 0.7;
+  color: #66c3cc;
 }
 
 .navbar__brand {
@@ -82,42 +81,42 @@
 .header {
   display: flex;
   justify-content: space-evenly;
-  color: #f5f5f5;
-  padding: 8% 2% 10% 2%;
+  padding: 5% 2% 4% 2%;
 }
 
 .header__title {
   margin-bottom: 10px;
-  /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15); */
+  padding-top: 40px;
   font-size: 3rem;
-  font-weight: lighter;
+  color: #66c3cc;
+  font-weight: bold;
 }
 
 .header__slogan {
   margin-top: 10px;
-  margin-bottom: 50px;
-  /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15); */
+  margin-bottom: 100px;
+  color: #e9eef3;
   font-weight: lighter;
 }
 
 .header img {
-  max-width: 100%;
+  width: 400px;
   height: auto;
+  margin-bottom: 0;
 }
 
 .header a {
   height: 40px;
   width: 200px;
   border-radius: 2px;
-  background: transparent;
-  border: 2px solid white;
+  background: #66c3cc;
+  border: 2px solid #66c3cc;
   padding: 10px 20px;
-  color: white;
+  color: #224264;
   font-size: 16px;
   letter-spacing: 1.5px;
-  box-shadow: 0 2px 5px 0 rgba(40, 44, 186, 0.14);
-  /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15); */
-  font-weight: lighter;
+  box-shadow: 0 2px 5px 0 rgba(34, 67, 111, 0.14);
+  font-weight: bold;
 }
 
 .btn__link {
@@ -125,17 +124,17 @@
 }
 
 .header a:hover {
-  background: white;
-  color: #2ca3ff;
+  background: #e9eef3;
+  color: #66c3cc;
   cursor: pointer;
 }
 
 @media (max-width: 768px) {
   .header__title {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
   .header__slogan {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   .header img {
     display: none;

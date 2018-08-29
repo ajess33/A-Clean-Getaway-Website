@@ -16,31 +16,38 @@ const IndexPage = () => (
 const Offer = styled.div`
   margin: -80px auto 0 auto;
   max-width: 600px;
-  border: 1px solid #f3f3f3;
   border-radius: 2px;
   padding: 30px;
-  background: #f3f3f3;
 `
 
 const Section = styled.section`
   width: 85%;
-  padding: 8% 12%;
+  padding: 8% 12% 4% 12%;
+  margin: 0 auto;
+`
+
+const Div = styled.div`
+  width: 100%;
 `
 
 const Spacer = styled.div`
-  padding-top: 30px;
+  display: flex;
+  justify-content: center;
 `
 
 const SectionTitle = styled.h3`
-  color: #4a5155;
-  font-weight: normal;
+  color: #224364;
+  font-weight: heavy;
+  display: inline-block;
+  background-color: #66c3cc;
+  padding: 0 5px 0 5px;
 `
 
 const Paragraph = styled.p`
-  color: hsl(0, 0%, 37%);
-  font-weight: lighter;
-  font-size: 0.9rem;
-  line-height: 1.5;
+  color: #435c7f;
+  font-weight: light;
+  font-size: 16px;
+  line-height: 1.7;
 `
 
 // <Offer>
@@ -54,20 +61,22 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        <Section>
-          <SectionTitle>In Business For Over 30 Years</SectionTitle>
-          <Paragraph>
-            A Clean Getaway is a family owned, professional cleaning service
-            founded by Joanne Jess. For over 30 years, we have earned a
-            reputation as a trusted and reliable cleaning service working around
-            the <strong>Cedar Rapids area</strong>. We provide cleaning services
-            to small businesses, families, couples, the elderly, and busy
-            professionals like you. Our team of experienced home cleaning
-            experts can handle business and homes of any shape, size, or layout.
-            Families with children and/or pets welcomed!
-          </Paragraph>
-          <Spacer>
+        <Div>
+          <Section>
+            <SectionTitle>In Business For Over 30 Years</SectionTitle>
+            <br />
+            <Paragraph>
+              A Clean Getaway is a family owned, professional cleaning service
+              founded by Joanne Jess. For over 30 years, we have earned a
+              reputation as a trusted and reliable cleaning service working
+              around the <strong>Cedar Rapids area</strong>. We provide cleaning
+              services to small businesses, families, couples, the elderly, and
+              busy professionals like you. Our team of experienced home cleaning
+              experts can handle business and homes of any shape, size, or
+              layout. Families with children and/or pets welcomed!
+            </Paragraph>
             <SectionTitle>Environmentally Friendly</SectionTitle>
+            <br />
             <Paragraph>
               Whenever possible, we use Norwex brand cleaning products that are
               environmentally friendly and <strong>100% chemical free</strong>{' '}
@@ -75,13 +84,15 @@ class Home extends React.Component {
               live in. We provide all of our cleaning supplies at{' '}
               <strong>no cost to you</strong>.
             </Paragraph>
-          </Spacer>
-        </Section>
-        <img
-          className="norwex__logo"
-          src={norwexPhoto}
-          alt="Norwex brand cleaning supplies. Reads: 'Improving Quality of Life'"
-        />
+          </Section>
+        </Div>
+        <Spacer>
+          <img
+            className="norwex__logo"
+            src={norwexPhoto}
+            alt="Norwex brand cleaning supplies. Reads: 'Improving Quality of Life'"
+          />
+        </Spacer>
       </div>
     )
   }
