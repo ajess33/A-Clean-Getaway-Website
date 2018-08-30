@@ -25,7 +25,6 @@
   color: #e9eef3;
 }
 
-/* DOESNT WORK */
 .navbar__item:hover {
   color: #66c3cc;
 }
@@ -81,7 +80,7 @@
 .header {
   display: flex;
   justify-content: space-evenly;
-  padding: 5% 2% 4% 2%;
+  padding: 5% 2% 4% 4%;
 }
 
 .header__title {
@@ -94,7 +93,7 @@
 
 .header__slogan {
   margin-top: 10px;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
   color: #e9eef3;
   font-weight: lighter;
 }

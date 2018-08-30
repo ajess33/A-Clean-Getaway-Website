@@ -40,7 +40,7 @@ const SectionTitle = styled.h3`
   font-weight: heavy;
   display: inline-block;
   background-color: #66c3cc;
-  padding: 0 5px 0 5px;
+  padding: 10px;
 `
 
 const Paragraph = styled.p`
