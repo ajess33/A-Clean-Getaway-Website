@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
 import ReviewsCard from '../components/ReviewsCard'
+import Footer from '../components/Footer'
 import '../styles/home.css'
 import norwexPhoto from '../assets/norwex-photo.png'
 
@@ -93,6 +94,7 @@ class Home extends React.Component {
             alt="Norwex brand cleaning supplies. Reads: 'Improving Quality of Life'"
           />
         </Spacer>
+        <Footer />
       </div>
     )
   }

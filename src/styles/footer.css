@@ -1,0 +1,10 @@
+.footer__link {
+  display: block;
+  color: #e9eef3;
+  font-size: 0.8rem;
+}
+
+.footer__link:hover {
+  cursor: pointer;
+  color: #66c3cc;
+}
