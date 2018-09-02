@@ -27,6 +27,11 @@
   font-weight: lighter;
 }
 
+.navbar__logo:hover {
+  cursor: pointer;
+  color: #66c3cc;
+}
+
 .navbar__item {
   text-decoration: none;
   margin-right: 35px;
