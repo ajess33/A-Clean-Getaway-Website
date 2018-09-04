@@ -4,13 +4,14 @@ import styled from 'styled-components'
 import { FaCheckCircle } from 'react-icons/fa'
 import '../styles/home.css'
 import Footer from '../components/Footer'
+import Header from '../components/Header'
 
 const FaCheck = styled(FaCheckCircle)`
   color: #66c3cc;
   margin: 2px 10px 0 -10px;
 `
 
-const Header = styled.div`
+const Container = styled.div`
   display: flex
   justify-content: center;
   padding: 8%;
@@ -66,16 +67,27 @@ const H4 = styled.h4`
   letter-spacing: 1.2px;
 `
 
+const P = styled.p`
+  font-size: 0.8rem;
+  text-align: center;
+  color: #435c7f;
+`
+
 class Services extends React.Component {
   render() {
     return (
       <div>
-        <Header>
+        <Header />
+        <Container>
           <Title>What You Can Expect</Title>
           <br />
-        </Header>
+        </Container>
         <ServicesWrapper>
           <H3>Residential</H3>
+          <P>
+            * We fit to your needs so services will vary from customer to
+            customer. Please tell us how we can accomodate you!
+          </P>
           <Div>
             <ServiceBox>
               <H4>General Areas</H4>

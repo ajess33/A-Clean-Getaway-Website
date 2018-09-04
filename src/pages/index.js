@@ -5,9 +5,12 @@ import ReviewsCard from '../components/ReviewsCard'
 import Footer from '../components/Footer'
 import '../styles/home.css'
 import norwexPhoto from '../assets/norwex-photo.png'
+import Header from '../components/Header'
+import ReviewAnimation from '../components/ReviewAnimation'
 
 const IndexPage = () => (
   <div>
+    <Header />
     <Home />
   </div>
 )
@@ -87,6 +90,7 @@ class Home extends React.Component {
             </Paragraph>
           </Section>
         </Div>
+        <ReviewAnimation />
         <Spacer>
           <img
             className="norwex__logo"

@@ -71,3 +71,5 @@ const reviews = [
     location: 'Cedar Rapids',
   },
 ]
+
+export default reviews
