@@ -2,6 +2,7 @@ import React from 'react'
 import data from '../assets/reviewData'
 import styled from 'styled-components'
 import Link from 'gatsby-link'
+import { PrimaryButton } from '../styles/globals'
 
 class ReviewAnimation extends React.Component {
   state = {
@@ -17,7 +18,11 @@ class ReviewAnimation extends React.Component {
 
   componentDidMount() {
     this.interval = this.getReview()
-    this.interval = setInterval(() => this.getReview(), 20000)
+    this.interval = setInterval(() => this.getReview(), 30000)
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.interval)
   }
 
   render() {
@@ -27,9 +32,9 @@ class ReviewAnimation extends React.Component {
       <Div>
         <QuoteP>"{review.quote}"</QuoteP>
         <Person>
-          ~ {review.author} - <em>{review.location}</em>
+          ~ {review.author} ({review.location})
         </Person>
-        <Link to="/testimonials/">SEE MORE</Link>
+        <PrimaryButton to="/testimonials/">SEE MORE</PrimaryButton>
       </Div>
     )
   }

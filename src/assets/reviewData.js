@@ -30,25 +30,25 @@ const reviews = [
   },
   {
     quote:
-      "Joanne and her team are amazing! We've been using them for about 10 months and I am so happy with the job that they do. I am pretty picky and I rarely find things they miss (and they are always minor things). We have them do the regular cleaning every two weeks. Joanne isn't always here but if she's not she usually follows up to make sure I am satisfied with the job done. She also periodically asks if I'm happy with the work that they are doing and if there is anything they can do better. Joanne is so personable and the ladies she hires are as well. I have also had them help me out with a few extras, like of oven cleaning and kitchen cabinet cleaning. I have always been satisfied with that work as well. Joanne is very competitively priced. And she's definitely cheaper than the chains and so much better. If I could give her an A+ I would!",
+      "Joanne and her team are amazing! We've been using them for about 10 months and I am so happy with the job they do. I am picky and I rarely find things they miss (and they are always minor things). We have them do the regular cleaning every two weeks. Joanne isn't always here but if she's not she follows up to make sure I am satisfied. Joanne is so personable and the ladies she hires are as well. They also do a few extras, like oven and cabinet cleaning. Joanne is very competitively priced. And she's definitely cheaper than the chains and so much better. If I could give her an A+ I would!",
     author: 'Erin',
     location: 'Cedar Rapids',
   },
   {
     quote:
-      "What I like most about A Clean Getaway is they don't have a set cleaning schedule for your home, meaning you can let them know each time they come, what you would like cleaned. For instance, I always have my master bathroom fully cleaned, however there are times where I don't need my guest bathroom showers cleaned as they haven't been used since the last time they were cleaned, etc- I simply make a list each time of things I would like done, and then they are able to complete those for me. Sometimes I have my stovetop and applicances cleaned, othertimes I have them dust my baseboards, etc. There is lots of flexibility and I love that.",
+      "What I like most about A Clean Getaway is they don't have a set cleaning schedule for your home, meaning you can let them know each time they come, what you would like cleaned. For instance, I always have my master bathroom fully cleaned, however there are times where I don't need my guest bathroom showers cleaned as they haven't been used since the last time they were cleaned, etc- I simply make a list each time of things I would like done, and then they are able to complete those for me. There is lots of flexibility and I love that.",
     author: 'Sarah',
     location: 'North Liberty',
   },
   {
     quote:
-      "The owner, Joanne Jess, came in to examine the house and make the bid.  She stopped by within hours of my email requesting a bid.  It is a very large house (nearly 6,000 square feet) which includes a home business, making it a real bear to bid and clean.  She took time to think about it and made a bid for the deep cleaning.  We decided to do that first, so that she could get a sense of the time it would take on a bi-weekly basis, before agreeing to the price for a regular cleaning.  I loved the deep clean so much, I wanted her to perform a few extras once a month to keep that 'deep clean' feeling.  She has been doing the bi-weekly cleaning since mid April and I couldn't be happier.  While she charges more than my last cleaners, the price is well worth the value I receive from the sort of clean my great-grandmother would do, you could eat off her floors.",
+      "The owner, Joanne Jess, came in to examine the house and make the bid. She stopped by within hours of my email requesting a bid. It is a very large house (nearly 6,000 square feet) which includes a home business, making it a real bear to bid and clean. I loved the deep clean so much, I wanted her to perform a few extras once a month to keep that 'deep clean' feeling. She has been doing the bi-weekly cleaning since mid April and I couldn't be happier. While she charges more than my last cleaners, the price is well worth the value I receive from the sort of clean my great-grandmother would do, you could eat off her floors.",
     author: 'Jill',
     location: 'Marion',
   },
   {
     quote:
-      'Joanne has great communication, we met to verify estimate and she was close to the amount originally quoted.  She was prompt for meeting me for estimate. Did the work in a timely manner and the bathroom and kitchen looked great.  She even did an estimate for another place I have and was honest and up front on what the costs would be.  I would highly recommend her.',
+      'Joanne has great communication, we met to verify estimate and she was close to the amount originally quoted. She was prompt for meeting me for estimate. Did the work in a timely manner and the bathroom and kitchen looked great. She even did an estimate for another place I have and was honest and up front on what the costs would be. I would highly recommend her.',
     author: 'Cynthia',
     location: 'Cedar Rapids',
   },
@@ -60,7 +60,7 @@ const reviews = [
   },
   {
     quote:
-      'Joanne is excellent, provides great value for the dollar, and is now a part of my ongoing household services.  When I need something special done, we discuss it, and she always asks questions to make sure she knows what needs to be done and exactly how I want it to be done.  I am so lucky she cleans for me! :)',
+      'Joanne is excellent, provides great value for the dollar, and is now a part of my ongoing household services. When I need something special done, we discuss it, and she always asks questions to make sure she knows what needs to be done and exactly how I want it to be done. I am so lucky she cleans for me! :)',
     author: 'Barbara',
     location: 'Iowa City',
   },
