@@ -20,9 +20,7 @@ const Section = styled.section`
   font-size: 0.9rem;
 `
 
-const Div = styled.div`
-  width: 250px;
-`
+const Div = styled.div``
 
 const Footer = () => (
   <Section>

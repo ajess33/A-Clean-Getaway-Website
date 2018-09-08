@@ -20,3 +20,14 @@ export const PrimaryButton = styled(Link)`
     cursor: pointer;
   }
 `
+
+export const H2 = styled.h2`
+  display: inline-block;
+  color: #224364;
+  background-color: #66c3cc;
+  padding: 10px;
+`
+
+export const Center = styled.div`
+  text-align: center;
+`

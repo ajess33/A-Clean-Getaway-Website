@@ -3,11 +3,10 @@ import Footer from '../components/Footer'
 import Header from '../components/Header'
 import styled from 'styled-components'
 import data from '../assets/reviewData'
+import { H2 } from '../styles/globals'
 
 class Testimonails extends React.Component {
   render() {
-    const numbers = [1, 2, 3, 4, 5]
-
     return (
       <div>
         <Header />
@@ -19,10 +18,9 @@ class Testimonails extends React.Component {
                 <div>
                   <Li key={review.quote}>
                     <p>"{review.quote}"</p>
-                    <p>
-                      <br />
+                    <PAuth>
                       <br />~ {review.author} ({review.location})
-                    </p>
+                    </PAuth>
                   </Li>
                 </div>
               )
@@ -35,31 +33,37 @@ class Testimonails extends React.Component {
   }
 }
 
-const Container = styled.div`
+const Container = styled.section`
   padding: 8% 20px 8% 20px;
   text-align: center;
 `
 
 const Ul = styled.ul`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  margin: 60px auto 0 auto;
+  width: 100%;
+  column-count: 2;
+  column-gap: 10px;
+
+  @media (max-width: 930px) {
+    column-count: 1;
+  }
 `
 
 const Li = styled.li`
   list-style-type: none;
   padding: 50px;
   text-align: left;
-  border: 1px solid #e6e6e6;
-  width: 500px;
-  height: 500px;
+  border: 2px solid #224264;
+  background: #224264;
+  color: #e9eef3;
+  box-shadow: 0 4px 4px -10px rgba(0, 0, 0, 0.1);
+  width: 450px;
+  display: inline-block;
 `
 
-const H2 = styled.h2`
-  display: inline-block;
-  color: #224364;
-  background-color: #66c3cc;
-  padding: 10px;
+const PAuth = styled.p`
+  text-align: right;
+  color: #66c3cc;
 `
 
 export default Testimonails
