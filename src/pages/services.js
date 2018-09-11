@@ -85,8 +85,8 @@ class Services extends React.Component {
         <ServicesWrapper>
           <H3>Residential</H3>
           <P>
-            * We fit to your needs so services will vary from customer to
-            customer. Please tell us how we can accomodate you!
+            * We fit to each customer's specific needs so services will vary.
+            Please let us how else we can accomodate you!
           </P>
           <Div>
             <ServiceBox>
