@@ -19,3 +19,5 @@ module.exports = {
     },
   ],
 }
+
+// add google analytics

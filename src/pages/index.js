@@ -1,7 +1,7 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
-import ReviewsCard from '../components/ReviewsCard'
 import Footer from '../components/Footer'
 import '../styles/home.css'
 import norwexPhoto from '../assets/norwex-photo.png'
@@ -10,6 +10,13 @@ import ReviewAnimation from '../components/ReviewAnimation'
 
 const IndexPage = () => (
   <div>
+    <Helmet>
+      <title>A Clean Getaway, LLC</title>
+      <meta
+        name="description"
+        content="A Clean Getaway, LLC is a residential and commercial cleaning company based out of the Cedar Rapids area."
+      />
+    </Helmet>
     <Header />
     <Home />
   </div>

@@ -15,81 +15,88 @@ class Tips extends React.Component {
             <H2>Cleaning Tips</H2>
           </Center>
           <Div>
-            <TipWrapper>
-              <h4>Vinegar</h4>
-              <Ul>
-                <li>
-                  <FaLight /> Clean stainless steel sinks with a paste of baking
-                  soda and vinegar. Foam is good!
-                </li>
-                <li>
-                  <FaLight /> Add 2-3 tablespoons white vinegar to hot water
-                  along with your regular dish-washing liquid to cut grease on
-                  dishes and crystal
-                </li>
-                <li>
-                  <FaLight /> Wipe down counter tops with undiluted white
-                  vinegar to kill ants
-                </li>
-                <li>
-                  <FaLight /> White vinegar added to a wet, lint-free rag will
-                  remove grease film from automobile windows and give you a
-                  streak-free shine
-                </li>
-              </Ul>
-            </TipWrapper>
-            <TipWrapper>
-              <h4>Vinegar</h4>
-              <Ul>
-                <li>
-                  <FaLight /> Clean stainless steel sinks with a paste of baking
-                  soda and vinegar. Foam is good!
-                </li>
-                <li>
-                  <FaLight /> Add 2-3 tablespoons white vinegar to hot water
-                  along with your regular dish-washing liquid to cut grease on
-                  dishes and crystal
-                </li>
-                <li>
-                  <FaLight /> Wipe down counter tops with undiluted white
-                  vinegar to kill ants
-                </li>
-                <li>
-                  <FaLight /> White vinegar added to a wet, lint-free rag will
-                  remove grease film from automobile windows and give you a
-                  streak-free shine
-                </li>
-              </Ul>
-            </TipWrapper>
-            <TipWrapper>
-              <h4>Vinegar</h4>
-              <Ul>
-                <li>
-                  <FaLight /> Clean stainless steel sinks with a paste of baking
-                  soda and vinegar. Foam is good!
-                </li>
-                <li>
-                  <FaLight /> Add 2-3 tablespoons white vinegar to hot water
-                  along with your regular dish-washing liquid to cut grease on
-                  dishes and crystal
-                </li>
-                <li>
-                  <FaLight /> Wipe down counter tops with undiluted white
-                  vinegar to kill ants
-                </li>
-                <li>
-                  <FaLight /> White vinegar added to a wet, lint-free rag will
-                  remove grease film from automobile windows and give you a
-                  streak-free shine
-                </li>
-              </Ul>
-            </TipWrapper>
+            <VinegarTip />
+            <BakingSodaTip />
+            <LemonTip />
           </Div>
         </Section>
         <Footer />
       </div>
     )
   }
+}
+
+const VinegarTip = () => {
+  return (
+    <TipWrapper>
+      <H4>Vinegar</H4>
+      <Ul>
+        <li>
+          <FaLight /> Clean stainless steel sinks with a paste of baking soda
+          and vinegar. Foam is good!
+        </li>
+        <li>
+          <FaLight /> Add 2-3 tablespoons white vinegar to hot water along with
+          your regular dish-washing liquid to cut grease on dishes and crystal
+        </li>
+        <li>
+          <FaLight /> Wipe down counter tops with undiluted white vinegar to
+          kill ants
+        </li>
+        <li>
+          <FaLight /> White vinegar added to a wet, lint-free rag will remove
+          grease film from automobile windows and give you a streak-free shine
+        </li>
+      </Ul>
+    </TipWrapper>
+  )
+}
+
+const BakingSodaTip = () => {
+  return (
+    <TipWrapper>
+      <H4>Baking Soda</H4>
+      <Ul>
+        <li>
+          <FaLight /> Remove heel marks from hard floors using a damp cloth and
+          baking soda
+        </li>
+        <li>
+          <FaLight /> Put a thin layer in the bottom of a cat litter box and top
+          with litter as usual to help eliminate odor
+        </li>
+        <li>
+          <FaLight /> Use baking soda on a damp cloth to polish silver
+        </li>
+        <li>
+          <FaLight /> Clean smudges on wallpaper with baking soda and water
+        </li>
+      </Ul>
+    </TipWrapper>
+  )
+}
+
+const LemonTip = () => {
+  return (
+    <TipWrapper>
+      <H4>Lemon Juice</H4>
+      <Ul>
+        <li>
+          <FaLight /> Apply to clothes, undiluted, to remove fruit based stains
+        </li>
+        <li>
+          <FaLight /> Remove stains on hands with lemon juice
+        </li>
+        <li>
+          <FaLight /> Remove rust from clothes by applying lemon juice and
+          laying the garment in the sun
+        </li>
+        <li>
+          <FaLight /> Apply lemon juice to chrome and buff to a shine
+        </li>
+      </Ul>
+    </TipWrapper>
+  )
 }
 
 const Section = styled.section`
@@ -118,6 +125,11 @@ const Ul = styled.ul`
 const FaLight = styled(FaLightbulb)`
   margin-right: 10px;
   color: #66c3cc;
+`
+
+const H4 = styled.h4`
+  color: #66c3cc;
+  margin-left: 25px;
 `
 
 export default Tips
