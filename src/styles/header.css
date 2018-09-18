@@ -100,7 +100,7 @@
 
 .header__title {
   margin-bottom: 10px;
-  padding-top: 40px;
+  padding-top: 20px;
   font-size: 3rem;
   color: #66c3cc;
   font-weight: bold;
@@ -108,9 +108,14 @@
 
 .header__slogan {
   margin-top: 10px;
-  margin-bottom: 80px;
   color: #e9eef3;
   font-weight: lighter;
+}
+
+.header__phone {
+  color: #e9eef3;
+  margin: 10px 0 40px 0;
+  font-size: 1.2rem;
 }
 
 .header img {

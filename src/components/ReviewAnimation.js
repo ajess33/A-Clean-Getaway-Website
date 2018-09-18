@@ -42,7 +42,7 @@ class ReviewAnimation extends React.Component {
 
 const QuoteP = styled.p`
   color: #435c7f;
-  font-size: 0.9rem;
+  font-size: 1rem;
 `
 
 const Person = styled.p`

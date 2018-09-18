@@ -28,6 +28,7 @@ const H3 = styled.h3`
   color: #224364;
   text-align: center;
   margin-bottom: 60px;
+  font-size: 1.8rem;
 `
 
 const Div = styled.section`
@@ -54,6 +55,7 @@ const ServiceBox = styled.div`
   background: #fff;
   box-shadow: 0 4px 4px -10px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
+  padding-top: 15px;
 `
 
 const List = styled.ul`
@@ -86,8 +88,8 @@ class Services extends React.Component {
         <ServicesWrapper>
           <H3>Residential</H3>
           <P>
-            * We fit to each customer's specific needs so services will vary.
-            Please let us how else we can accomodate you!
+            * We accomodate for each customer's specific needs so services will
+            vary. Please let us how else we can accomodate you!
           </P>
           <Div>
             <ServiceBox>

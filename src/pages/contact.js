@@ -1,14 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
 import Footer from '../components/Footer'
-import Header from '../components/Header'
+import serviceArea from '../assets/service-location.png'
 
 const Title = styled.div`
   display: flex;
   justify-content: center;
-  padding: 75px 75px 20px 75px;
   flex-direction: column;
-  width: 600px;
+  width: 440px;
   margin: 0 auto;
 `
 
@@ -29,26 +28,32 @@ const Paragraph = styled.p`
 class Contact extends React.Component {
   render() {
     return (
-      <Div>
-        <Title>
-          <H2> Get Your Free Quote Today</H2>
-          <Paragraph>
-            We offer <strong>free estimates</strong> and{' '}
-            <strong>guaranteed customer satisfaction</strong>. Contact us today
-            using the form below or email directly to jjjess3219@aol.com.
-          </Paragraph>
-        </Title>
-        <Div>
+      <div>
+        <FlexWrapper>
           <ContactForm />
-        </Div>
+        </FlexWrapper>
         <Footer />
-      </Div>
+      </div>
     )
   }
 }
 
-const Div = styled.div`
-  width: 100%;
+const LocationCard = () => {
+  return (
+    <div>
+      <h3>Service Area</h3>
+      <img
+        src={serviceArea}
+        alt="map which describes the locations we service"
+      />
+    </div>
+  )
+}
+
+const FlexWrapper = styled.div`
+  display: flex;
+  padding: 75px 75px 20px 75px;
+  justify-content: space-evenly;
 `
 
 const Form = styled.form`
@@ -108,7 +113,15 @@ const Submit = styled.input`
 class ContactForm extends React.Component {
   render() {
     return (
-      <Div>
+      <div>
+        <Title>
+          <H2> Get Your Free Quote Today</H2>
+          <Paragraph>
+            We offer <strong>free estimates</strong> and{' '}
+            <strong>guaranteed customer satisfaction</strong>. Contact us today
+            using the form below or email directly at jjjess3219@aol.com.
+          </Paragraph>
+        </Title>
         <Form method="POST">
           <Label>NAME</Label>
           <Input required type="text" name="name" />
@@ -121,28 +134,9 @@ class ContactForm extends React.Component {
           <MessageInput required type="textarea" name="message" />
           <Submit type="submit" value="SEND" />
         </Form>
-      </Div>
+      </div>
     )
   }
 }
 
 export default Contact
-
-// <Div>
-// <Form method="POST">
-//   <Label>
-//     NAME <Input required type="text" name="name" />
-//   </Label>
-//   <br />
-//   <Label>
-//     EMAIL <Input required type="email" name="email" />
-//   </Label>
-//   <Label>
-//     PHONE <Input type="phone" name="phone" />
-//   </Label>
-//   <Label>
-//     MESSAGE <MessageInput required type="textarea" name="message" />
-//   </Label>
-//   <Submit type="submit" value="SUBMIT" />
-// </Form>
-// </Div>

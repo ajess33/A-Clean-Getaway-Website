@@ -7,6 +7,7 @@ import '../styles/home.css'
 import norwexPhoto from '../assets/norwex-photo.png'
 import Header from '../components/Header'
 import ReviewAnimation from '../components/ReviewAnimation'
+import { H2 } from '../styles/globals'
 
 const IndexPage = () => (
   <div>
@@ -24,11 +25,12 @@ const IndexPage = () => (
 
 // OFFER: All new customers will receive a $25 donation to the charity organization of their choosing! If you plan to be cleaned bi-monthly, you will receive $50
 
-const Offer = styled.div`
-  margin: -80px auto 0 auto;
+const OfferCard = styled.div`
+  margin: 8% auto 0 auto;
   max-width: 600px;
-  border-radius: 2px;
-  padding: 30px;
+  color: #435c7f;
+  padding: 30px 20px;
+  text-align: center;
 `
 
 const Section = styled.section`
@@ -56,10 +58,24 @@ const SectionTitle = styled.h3`
 
 const Paragraph = styled.p`
   color: #435c7f;
-  font-weight: light;
+  font-weight: normal;
   font-size: 16px;
   line-height: 1.7;
 `
+
+const Offer = () => {
+  return (
+    <div>
+      <OfferCard>
+        <H2>New Customers</H2>
+        <p>
+          All new customers will receive a $25 donation to a charity of their
+          choice! Bi-monthly customers will receive $50
+        </p>
+      </OfferCard>
+    </div>
+  )
+}
 
 // <Offer>
 //   <Paragraph>
@@ -72,6 +88,8 @@ class Home extends React.Component {
   render() {
     return (
       <div>
+        <Offer />
+        <ReviewAnimation />
         <Div>
           <Section>
             <SectionTitle>In Business For Over 30 Years</SectionTitle>
@@ -97,7 +115,6 @@ class Home extends React.Component {
             </Paragraph>
           </Section>
         </Div>
-        <ReviewAnimation />
         <Spacer>
           <img
             className="norwex__logo"
