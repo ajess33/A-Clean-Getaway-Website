@@ -4,11 +4,13 @@ import Header from '../components/Header'
 import styled from 'styled-components'
 import data from '../assets/reviewData'
 import { H2 } from '../styles/globals'
+import Nav from '../components/Nav'
 
 class Testimonails extends React.Component {
   render() {
     return (
       <div>
+        <Nav />
         <Header />
         <Container>
           <H2>See What Others Have Said</H2>

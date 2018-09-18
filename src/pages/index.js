@@ -8,16 +8,12 @@ import norwexPhoto from '../assets/norwex-photo.png'
 import Header from '../components/Header'
 import ReviewAnimation from '../components/ReviewAnimation'
 import { H2 } from '../styles/globals'
+import { FaEnvira } from 'react-icons/fa'
+import Nav from '../components/Nav'
 
 const IndexPage = () => (
   <div>
-    <Helmet>
-      <title>A Clean Getaway, LLC</title>
-      <meta
-        name="description"
-        content="A Clean Getaway, LLC is a residential and commercial cleaning company based out of the Cedar Rapids area."
-      />
-    </Helmet>
+    <Nav />
     <Header />
     <Home />
   </div>
@@ -63,6 +59,11 @@ const Paragraph = styled.p`
   line-height: 1.7;
 `
 
+const CardWrapper = styled.div`
+  display: flex;
+  justify-content: space-evenly;
+`
+
 const Offer = () => {
   return (
     <div>
@@ -104,15 +105,10 @@ class Home extends React.Component {
               experts can handle business and homes of any shape, size, or
               layout. Families with children and/or pets welcomed!
             </Paragraph>
-            <SectionTitle>Environmentally Friendly</SectionTitle>
-            <br />
-            <Paragraph>
-              Whenever possible, we use Norwex brand cleaning products that are
-              environmentally friendly and <strong>100% chemical free</strong>{' '}
-              to make your home or business not only clean, but healthier to
-              live in. We provide all of our cleaning supplies at{' '}
-              <strong>no cost to you</strong>.
-            </Paragraph>
+            <CardWrapper>
+              <FaEnvira />
+              <FaEnvira />
+            </CardWrapper>
           </Section>
         </Div>
         <Spacer>
@@ -129,3 +125,9 @@ class Home extends React.Component {
 }
 
 export default IndexPage
+
+// Whenever possible, we use Norwex brand cleaning products that are
+// environmentally friendly and <strong>100% chemical free</strong>{' '}
+// to make your home or business not only clean, but healthier to
+// live in. We provide all of our cleaning supplies at{' '}
+// <strong>no cost to you</strong>.

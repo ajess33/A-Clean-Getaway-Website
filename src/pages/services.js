@@ -5,6 +5,7 @@ import { FaCheckCircle } from 'react-icons/fa'
 import '../styles/home.css'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
+import Nav from '../components/Nav'
 
 const FaCheck = styled(FaCheckCircle)`
   color: #66c3cc;
@@ -80,6 +81,7 @@ class Services extends React.Component {
   render() {
     return (
       <div>
+        <Nav />
         <Header />
         <Container>
           <Title>What You Can Expect</Title>

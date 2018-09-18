@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import Nav from '../components/Nav'
-import './index.css'
+import Nav from './Nav'
+import '../styles/layout.css'
 
 const Layout = ({ children, data }) => (
   <div>
@@ -17,7 +17,7 @@ const Layout = ({ children, data }) => (
       ]}
     />
     <Nav />
-    <div>{children()}</div>
+    <div>{children}</div>
   </div>
 )
 

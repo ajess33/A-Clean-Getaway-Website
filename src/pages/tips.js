@@ -4,11 +4,13 @@ import Header from '../components/Header'
 import { H2, Center } from '../styles/globals'
 import { FaLightbulb } from 'react-icons/fa'
 import styled from 'styled-components'
+import Nav from '../components/Nav'
 
 class Tips extends React.Component {
   render() {
     return (
       <div>
+        <Nav />
         <Header />
         <Section>
           <Center>

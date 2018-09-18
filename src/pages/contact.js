@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Footer from '../components/Footer'
 import serviceArea from '../assets/service-location.png'
+import Nav from '../components/Nav'
 
 const Title = styled.div`
   display: flex;
@@ -29,6 +30,7 @@ class Contact extends React.Component {
   render() {
     return (
       <div>
+        <Nav />
         <FlexWrapper>
           <ContactForm />
         </FlexWrapper>
