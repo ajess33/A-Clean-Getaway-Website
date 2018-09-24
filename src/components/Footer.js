@@ -17,7 +17,7 @@ const Section = styled.section`
   justify-content: space-evenly;
   padding-top: 20px;
   align-items: baseline;
-  font-size: 0.9rem;
+  font-size: 1rem;
 `
 
 const Div = styled.div``

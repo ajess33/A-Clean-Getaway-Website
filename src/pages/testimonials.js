@@ -36,7 +36,7 @@ class Testimonails extends React.Component {
 }
 
 const Container = styled.section`
-  padding: 8% 20px 8% 20px;
+  padding: 60px 20px 60px 20px;
   text-align: center;
 `
 
@@ -66,6 +66,7 @@ const Li = styled.li`
 const PAuth = styled.p`
   text-align: right;
   color: #66c3cc;
+  font-size: 1.1rem;
 `
 
 export default Testimonails

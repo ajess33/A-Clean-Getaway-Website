@@ -102,7 +102,7 @@ const LemonTip = () => {
 }
 
 const Section = styled.section`
-  padding-top: 80px;
+  padding-top: 60px;
 `
 
 const Div = styled.div`
@@ -121,7 +121,7 @@ const TipWrapper = styled.div`
 
 const Ul = styled.ul`
   list-style: none;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 `
 
 const FaLight = styled(FaLightbulb)`
@@ -131,7 +131,8 @@ const FaLight = styled(FaLightbulb)`
 
 const H4 = styled.h4`
   color: #66c3cc;
-  margin-left: 25px;
+  margin: 0 0 20px 25px;
+  font-size: 1.1rem;
 `
 
 export default Tips

@@ -26,6 +26,7 @@ export const H2 = styled.h2`
   color: #224364;
   background-color: #66c3cc;
   padding: 10px;
+  margin: 0;
 `
 
 export const Center = styled.div`

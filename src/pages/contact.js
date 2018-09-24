@@ -8,8 +8,9 @@ const Title = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 440px;
   margin: 0 auto;
+  width: 400px;
+  text-align: center;
 `
 
 const H2 = styled.h2`
@@ -17,6 +18,9 @@ const H2 = styled.h2`
   color: #224364;
   background-color: #66c3cc;
   padding: 10px;
+  width: 380px;
+  margin-left: auto;
+  margin-right: auto;
 `
 
 const Paragraph = styled.p`
@@ -24,6 +28,7 @@ const Paragraph = styled.p`
   font-weight: light;
   font-size: 16px;
   line-height: 1.7;
+  text-align: left;
 `
 
 class Contact extends React.Component {
@@ -54,7 +59,7 @@ const LocationCard = () => {
 
 const FlexWrapper = styled.div`
   display: flex;
-  padding: 75px 75px 20px 75px;
+  padding: 60px 75px 20px 75px;
   justify-content: space-evenly;
 `
 
