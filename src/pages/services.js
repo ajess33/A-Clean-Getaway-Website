@@ -27,9 +27,9 @@ const Title = styled.h2`
 `
 
 const H3 = styled.h3`
-  color: #224364;
+  color: #66c3cc;
   text-align: center;
-  margin-bottom: 54px;
+  margin-bottom: 27px;
   font-size: 1.8rem;
 `
 
@@ -53,7 +53,7 @@ const ServiceBox = styled.div`
   border: 2px solid #e6e6e6;
   border-radius: 3px;
   height: 325px;
-  width: 325px;
+  width: 350px;
   background: #fff;
   box-shadow: 0 4px 4px -10px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
@@ -61,7 +61,7 @@ const ServiceBox = styled.div`
 `
 
 const List = styled.ul`
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   list-style: none;
 `
 
@@ -70,12 +70,16 @@ const H4 = styled.h4`
   text-align: center;
   margin-top: 12px;
   letter-spacing: 1.2px;
+  font-size: 1.3rem;
 `
 
 const P = styled.p`
-  font-size: 0.8rem;
-  text-align: center;
+  font-size: 0.9rem;
+  text-align: left;
   color: #435c7f;
+  width: 600px;
+  margin: 0 auto;
+  padding-bottom: 20px;
 `
 
 class Services extends React.Component {
@@ -91,8 +95,12 @@ class Services extends React.Component {
         <ServicesWrapper>
           <H3>Residential</H3>
           <P>
-            * We accomodate for each customer's specific needs so services will
-            vary. Please let us how else we can accomodate you!
+            Our cleaning services for homes and apartments are performed on a
+            scheduled weekly, bi-monthly, or monthly basis. After the initial
+            cleanings if you decide to become a regular customer, you will be
+            given a <strong>flat rate</strong>. We accomodate for each
+            customer's specific needs so services will vary. Please let us how
+            else we can accomodate you!
           </P>
           <Div>
             <ServiceBox>
@@ -216,6 +224,14 @@ const Commercial = () => {
   return (
     <div>
       <H3>Commercial</H3>
+      <P>
+        We have a low office cleaning rate that makes commercial cleaning
+        services affordable for small businesses. We charge an hourly fee so
+        that you, the customer, have complete control of the service we provide
+        you with. <strong>NO CONTRACTS REQUIRED</strong>. We know that your
+        workplace represents your company, so we will work hard to give you a
+        workable environment that gives your business a professional appearance.
+      </P>
     </div>
   )
 }

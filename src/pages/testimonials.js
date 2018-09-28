@@ -36,12 +36,12 @@ class Testimonails extends React.Component {
 }
 
 const Container = styled.section`
-  padding: 60px 20px 60px 20px;
+  padding: 80px 20px 60px 20px;
   text-align: center;
 `
 
 const Ul = styled.ul`
-  margin: 60px auto 0 auto;
+  margin: 80px auto 0 auto;
   width: 100%;
   column-count: 2;
   column-gap: 10px;

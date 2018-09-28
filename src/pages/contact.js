@@ -31,32 +31,6 @@ const Paragraph = styled.p`
   text-align: left;
 `
 
-class Contact extends React.Component {
-  render() {
-    return (
-      <div>
-        <Nav />
-        <FlexWrapper>
-          <ContactForm />
-        </FlexWrapper>
-        <Footer />
-      </div>
-    )
-  }
-}
-
-const LocationCard = () => {
-  return (
-    <div>
-      <h3>Service Area</h3>
-      <img
-        src={serviceArea}
-        alt="map which describes the locations we service"
-      />
-    </div>
-  )
-}
-
 const FlexWrapper = styled.div`
   display: flex;
   padding: 60px 75px 20px 75px;
@@ -117,6 +91,32 @@ const Submit = styled.input`
   margin-top: 15px;
 `
 
+class Contact extends React.Component {
+  render() {
+    return (
+      <div>
+        <Nav />
+        <FlexWrapper>
+          <ContactForm />
+        </FlexWrapper>
+        <Footer />
+      </div>
+    )
+  }
+}
+
+const LocationCard = () => {
+  return (
+    <div>
+      <h3>Service Area</h3>
+      <img
+        src={serviceArea}
+        alt="map which describes the locations we service"
+      />
+    </div>
+  )
+}
+
 class ContactForm extends React.Component {
   render() {
     return (
@@ -129,10 +129,9 @@ class ContactForm extends React.Component {
             using the form below or email directly at jjjess3219@aol.com.
           </Paragraph>
         </Title>
-        <Form method="POST">
+        <Form method="POST" action="#">
           <Label>NAME</Label>
           <Input required type="text" name="name" />
-          <br />
           <Label>EMAIL</Label>
           <Input required type="email" name="email" />
           <Label>PHONE</Label>
