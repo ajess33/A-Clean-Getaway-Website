@@ -7,13 +7,13 @@ import '../styles/layout.css'
 const Layout = ({ children, data }) => (
   <div>
     <Helmet
-      title={data.site.siteMetadata.title}
+      title="A Clean Getaway, LLC"
       meta={[
         {
           name: 'description',
           content: 'This is the website for A Clean Getaway, LLC',
         },
-        { name: 'keywords', content: 'cleaning, service' },
+        { name: 'keywords', content: 'cleaning, service, cedar rapids' },
       ]}
     />
     <Nav />
@@ -27,12 +27,12 @@ Layout.propTypes = {
 
 export default Layout
 
-export const query = graphql`
-  query SiteTitleQuery {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`
+// export const query = graphql`
+//   query SiteTitleQuery {
+//     site {
+//       siteMetadata {
+//         title
+//       }
+//     }
+//   }
+// `

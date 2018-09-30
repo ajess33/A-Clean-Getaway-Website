@@ -29,7 +29,7 @@ const Title = styled.h2`
 const H3 = styled.h3`
   color: #66c3cc;
   text-align: center;
-  margin-bottom: 27px;
+  margin-bottom: 40px;
   font-size: 1.8rem;
 `
 
@@ -77,9 +77,9 @@ const P = styled.p`
   font-size: 0.9rem;
   text-align: left;
   color: #435c7f;
-  width: 600px;
+  max-width: 800px;
   margin: 0 auto;
-  padding-bottom: 20px;
+  padding: 0 10px 30px 10px;
 `
 
 class Services extends React.Component {
@@ -98,7 +98,8 @@ class Services extends React.Component {
             Our cleaning services for homes and apartments are performed on a
             scheduled weekly, bi-monthly, or monthly basis. After the initial
             cleanings if you decide to become a regular customer, you will be
-            given a <strong>flat rate</strong>. We accomodate for each
+            given a <strong>FLAT RATE</strong> and{' '}
+            <strong>NO CONTRACTS EVER</strong>. We accomodate for each
             customer's specific needs so services will vary. Please let us how
             else we can accomodate you!
           </P>
@@ -226,11 +227,12 @@ const Commercial = () => {
       <H3>Commercial</H3>
       <P>
         We have a low office cleaning rate that makes commercial cleaning
-        services affordable for small businesses. We charge an hourly fee so
-        that you, the customer, have complete control of the service we provide
-        you with. <strong>NO CONTRACTS REQUIRED</strong>. We know that your
-        workplace represents your company, so we will work hard to give you a
-        workable environment that gives your business a professional appearance.
+        services affordable for small businesses. We charge an{' '}
+        <strong>HOURLY FEE</strong> so that you, the customer, have complete
+        control of the service we provide you with.{' '}
+        <strong>NO CONTRACTS REQUIRED</strong>. We know that your workplace
+        represents your company, so we will work hard to give you a workable
+        environment that gives your business a professional appearance.
       </P>
     </div>
   )

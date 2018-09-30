@@ -14,6 +14,20 @@ import { FaEnvira } from 'react-icons/fa'
 
 const IndexPage = () => (
   <div>
+    <Helmet
+      title="A Clean Getaway, LLC"
+      meta={[
+        {
+          name: 'description',
+          content:
+            'Tired of coming home to a dirty house? Let us clean it for you! A Clean Getaway, LLC is a professional cleaning service that you can trust. Serving both residential and commercial customers.',
+        },
+        {
+          name: 'keywords',
+          content: 'cleaning, service, cedar rapids',
+        },
+      ]}
+    />
     <Nav />
     <Header />
     <Home />
@@ -102,6 +116,13 @@ const HomeCards = () => {
           <CardTitle>No Contracts</CardTitle>
           <p>Stop service at any time if you are unhappy</p>
         </Card>
+        <p className="paragraph__white">
+          FOR A FREE ESTIMATE CALL{' '}
+          <span className="phoneNumber">319-929-6266</span> OR{' '}
+          <Link className="paragraph--link" to="/contact/">
+            FILL OUT OUR FORM
+          </Link>
+        </p>
       </CardWrapper>
     </CardSection>
   )
@@ -184,11 +205,12 @@ const SectionTitle = styled.h3`
   display: inline-block;
   background-color: #66c3cc;
   padding: 10px;
+  font-size: 1.5rem;
 `
 
 const Paragraph = styled.p`
   color: #435c7f;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.7;
 `

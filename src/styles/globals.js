@@ -15,7 +15,7 @@ export const PrimaryButton = styled(Link)`
   font-weight: bold;
 
   &:hover {
-    background: #e9eef3;
+    background: white;
     color: #66c3cc;
     cursor: pointer;
   }
