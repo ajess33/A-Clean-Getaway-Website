@@ -48,6 +48,7 @@ const QuoteP = styled.p`
 const Person = styled.p`
   color: #435c7f;
   font-size: 0.9rem;
+  padding-bottom: 60px;
 `
 
 const Div = styled.section`

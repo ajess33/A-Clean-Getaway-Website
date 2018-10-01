@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import styled from 'styled-components'
 import { FaCheckCircle } from 'react-icons/fa'
 import '../styles/home.css'
