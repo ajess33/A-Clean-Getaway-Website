@@ -23,6 +23,7 @@ const Title = styled.h2`
   background-color: #66c3cc;
   padding: 10px;
   margin-top: 27px;
+  font-size: 2rem;
 `
 
 const H3 = styled.h3`
@@ -78,7 +79,7 @@ const P = styled.p`
   color: #435c7f;
   max-width: 800px;
   margin: 0 auto;
-  padding: 0 10px 30px 10px;
+  padding: 0 20px 30px 20px;
 `
 
 class Services extends React.Component {
@@ -97,8 +98,8 @@ class Services extends React.Component {
             Our cleaning services for homes and apartments are performed on a
             scheduled weekly, bi-monthly, or monthly basis. After the initial
             cleanings if you decide to become a regular customer, you will be
-            given a <strong>FLAT RATE</strong> and{' '}
-            <strong>NO CONTRACTS EVER</strong>. We accomodate for each
+            given a <strong>FLAT RATE</strong>. And you will{' '}
+            <strong>NEVER SIGN A CONTRACT</strong>. We accomodate for each
             customer's specific needs so services will vary. Please let us how
             else we can accomodate you!
           </P>

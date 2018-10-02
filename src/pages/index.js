@@ -118,7 +118,7 @@ const HomeCards = () => {
         </Card>
         <p className="paragraph__white">
           FOR A FREE ESTIMATE CALL{' '}
-          <span className="phoneNumber">319-929-6266</span> OR{' '}
+          <span className="phoneNumber">319-929-6266</span> OR <br />
           <Link className="paragraph--link" to="/contact/">
             FILL OUT OUR FORM
           </Link>
@@ -144,7 +144,7 @@ const Num = styled.p`
 
 const CardSection = styled.section`
   background-color: #66c3cc;
-  padding-bottom: 30px;
+  padding: 10px 10px 30px 10px;
   width: 90%;
   margin: 0 auto;
   border-radius: 3px;
@@ -185,9 +185,9 @@ const OfferCard = styled.div`
 `
 
 const Section = styled.section`
-  width: 85%;
-  padding: 10px 12% 40px 12%;
+  padding: 10px 12% 60px 12%;
   margin: 0 auto;
+  text-align: center;
 `
 
 const Div = styled.div`
@@ -200,17 +200,20 @@ const Spacer = styled.div`
 `
 
 const SectionTitle = styled.h3`
-  color: #224364;
-  font-weight: heavy;
+  color: #66c3cc;
+  font-weight: bold;
   display: inline-block;
-  background-color: #66c3cc;
   padding: 10px;
   font-size: 1.5rem;
+  letter-spacing: 1.8;
 `
 
 const Paragraph = styled.p`
   color: #435c7f;
   font-weight: normal;
   font-size: 1rem;
-  line-height: 1.7;
+  line-height: 2;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
 `

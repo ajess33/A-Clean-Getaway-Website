@@ -50,11 +50,22 @@ img {
   font-size: 1.1rem;
   font-weight: bold;
   letter-spacing: 0.9px;
+  padding: 40px 0 20px 0;
+  text-align: center;
 }
 
 .phoneNumber {
   font-size: 1.3rem;
   color: #224364;
+}
+
+/* ===================== */
+/* Reviews */
+/* ===================== */
+
+.quotewrap {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 /* Norwex photo cred: https://theresalongo.com/norwex/ */

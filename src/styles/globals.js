@@ -9,8 +9,7 @@ export const PrimaryButton = styled(Link)`
   border: 2px solid #66c3cc;
   padding: 13px 20px;
   color: #223264;
-  font-size: 0.8rem;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
   box-shadow: 0 2px 5px 0 rgba(34, 67, 111, 0.14);
   font-weight: bold;
 
@@ -27,6 +26,7 @@ export const H2 = styled.h2`
   background-color: #66c3cc;
   padding: 10px;
   margin: 0;
+  font-size: 2rem;
 `
 
 export const Center = styled.div`

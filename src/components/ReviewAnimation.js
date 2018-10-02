@@ -3,6 +3,7 @@ import data from '../assets/reviewData'
 import styled from 'styled-components'
 import Link from 'gatsby-link'
 import { PrimaryButton } from '../styles/globals'
+import '../styles/home.css'
 
 class ReviewAnimation extends React.Component {
   state = {
@@ -30,11 +31,13 @@ class ReviewAnimation extends React.Component {
 
     return (
       <Div>
-        <QuoteP>"{review.quote}"</QuoteP>
-        <Person>
-          ~ {review.author} ({review.location})
-        </Person>
-        <PrimaryButton to="/testimonials/">SEE MORE</PrimaryButton>
+        <div className="quotewrap">
+          <QuoteP>"{review.quote}"</QuoteP>
+          <Person>
+            ~ {review.author} ({review.location})
+          </Person>
+          <PrimaryButton to="/testimonials/">SEE MORE</PrimaryButton>
+        </div>
       </Div>
     )
   }
@@ -43,12 +46,14 @@ class ReviewAnimation extends React.Component {
 const QuoteP = styled.p`
   color: #435c7f;
   font-size: 1rem;
+  max-width: 800px;
 `
 
 const Person = styled.p`
   color: #435c7f;
-  font-size: 0.9rem;
-  padding-bottom: 60px;
+  font-size: 1rem;
+  padding: 40px 0 60px 0;
+  line-height: 2;
 `
 
 const Div = styled.section`

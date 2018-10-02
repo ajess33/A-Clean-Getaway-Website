@@ -29,5 +29,8 @@ img {
 
 p {
   margin: 0;
-  padding-top: 5px;
+}
+
+.paragraph__white {
+  padding-top: 40px;
 }

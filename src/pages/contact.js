@@ -15,19 +15,20 @@ const Title = styled.div`
 const H2 = styled.h2`
   display: inline-block;
   color: #224364;
-  background-color: #66c3cc;
   padding: 10px;
   width: 450px;
   margin-left: auto;
   margin-right: auto;
+  font-size: 1.8rem;
 `
+// background-color: #66c3cc;
 
 const Paragraph = styled.p`
   color: #435c7f;
   font-weight: light;
   font-size: 16px;
   line-height: 1.7;
-  text-align: left;
+  text-align: center;
   max-width: 450px;
 `
 
@@ -40,7 +41,7 @@ const FlexWrapper = styled.div`
 const Form = styled.form`
   display: flex;
   flex-direction: column;
-  margin: 0 auto 80px auto;
+  margin: 40px auto 80px auto;
   max-width: 600px;
   text-align: center;
   padding: 40px;
@@ -58,6 +59,7 @@ const Input = styled.input`
   font-size: 1rem;
   font-weight: normal;
   margin-bottom: 10px;
+  padding: 0 10px 0 10px;
 `
 
 const MessageInput = styled.textarea`
@@ -68,6 +70,7 @@ const MessageInput = styled.textarea`
   width: 350px;
   height: 200px;
   margin-bottom: 10px;
+  padding: 10px;
 `
 
 const Label = styled.label`
@@ -136,7 +139,12 @@ class ContactForm extends React.Component {
           <Label>PHONE</Label>
           <Input type="phone" name="phone" />
           <Label>MESSAGE</Label>
-          <MessageInput required type="textarea" name="message" />
+          <MessageInput
+            required
+            type="textarea"
+            name="message"
+            placeholder="Please provide some information about the house like location, size, ect. "
+          />
           <Submit type="submit" value="SEND" />
         </Form>
       </div>
