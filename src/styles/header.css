@@ -6,10 +6,6 @@
   background-color: #224264;
 }
 
-.center {
-  max-width: 2000px;
-}
-
 .navbar {
   display: flex;
   justify-content: space-evenly;
@@ -22,9 +18,8 @@
 
 .navbar__logo {
   text-decoration: none;
-  padding-left: 25px;
+  padding-left: 35px;
   color: #e9eef3;
-  font-weight: lighter;
 }
 
 .navbar__logo:hover {
@@ -62,7 +57,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 850px) {
   .navbar__items--right,
   .navbar__logo,
   .navbar__brand,
@@ -77,11 +72,19 @@
     padding-left: 10px;
   }
   .navbar__toggle {
-    align-self: flex-end;
+    cursor: pointer;
     display: initial;
     position: absolute;
-    cursor: pointer;
+    top: 30px;
+    right: 10px;
   }
+
+  /* ================ */
+
+  /* align-self: flex-end;
+  display: initial;
+  position: absolute; */
+
   /* .navbar__toggle--show {
     display: flex;
   } */

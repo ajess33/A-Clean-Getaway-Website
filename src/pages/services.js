@@ -19,8 +19,7 @@ const Container = styled.div`
 
 const Title = styled.h2`
   display: inline-block;
-  color: #224364;
-  background-color: #66c3cc;
+  color: #66c3cc;
   padding: 10px;
   margin-top: 27px;
   font-size: 2rem;
@@ -77,7 +76,7 @@ const P = styled.p`
   font-size: 0.9rem;
   text-align: left;
   color: #435c7f;
-  max-width: 800px;
+  max-width: 700px;
   margin: 0 auto;
   padding: 0 20px 30px 20px;
 `
@@ -96,12 +95,12 @@ class Services extends React.Component {
           <H3>Residential</H3>
           <P>
             Our cleaning services for homes and apartments are performed on a
-            scheduled weekly, bi-monthly, or monthly basis. After the initial
-            cleanings if you decide to become a regular customer, you will be
-            given a <strong>FLAT RATE</strong>. And you will{' '}
-            <strong>NEVER SIGN A CONTRACT</strong>. We accomodate for each
-            customer's specific needs so services will vary. Please let us how
-            else we can accomodate you!
+            scheduled weekly, bi-monthly, or monthly basis. After the initial{' '}
+            <strong>DEEP CLEAN</strong> if you decide to become a regular
+            customer, you will be given a <strong>FLAT RATE</strong>. And you
+            will <strong>NEVER SIGN A CONTRACT</strong>.<br /> <br /> <br />
+            Our services vary from customer to customer, but outlined below is
+            our basic cleaning service.
           </P>
           <Div>
             <ServiceBox>

@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 import styled from 'styled-components'
 import Footer from '../components/Footer'
 import '../styles/home.css'
-import norwexPhoto from '../assets/norwex-photo.png'
+import norwexPhoto from '../assets/norwex-pic-1200.jpg'
 import Header from '../components/Header'
 import ReviewAnimation from '../components/ReviewAnimation'
 import { H2 } from '../styles/globals'
@@ -79,7 +79,7 @@ class Home extends React.Component {
               layout. Families with children and/or pets welcomed!
             </Paragraph>
           </Section>
-          <HomeCards />
+          j<HomeCards />
         </Div>
         <Spacer>
           <img

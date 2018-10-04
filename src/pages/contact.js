@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import Footer from '../components/Footer'
-import serviceArea from '../assets/service-location.png'
 import Nav from '../components/Nav'
 
 const Title = styled.div`
@@ -13,23 +12,22 @@ const Title = styled.div`
 `
 
 const H2 = styled.h2`
-  display: inline-block;
-  color: #224364;
+  color: #66c3cc;
   padding: 10px;
-  width: 450px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 1.8rem;
+  font-size: 2rem;
 `
 // background-color: #66c3cc;
 
 const Paragraph = styled.p`
   color: #435c7f;
   font-weight: light;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.7;
   text-align: center;
   max-width: 450px;
+  margin: 0 auto;
 `
 
 const FlexWrapper = styled.div`
@@ -107,18 +105,6 @@ class Contact extends React.Component {
   }
 }
 
-const LocationCard = () => {
-  return (
-    <div>
-      <h3>Service Area</h3>
-      <img
-        src={serviceArea}
-        alt="map which describes the locations we service"
-      />
-    </div>
-  )
-}
-
 class ContactForm extends React.Component {
   render() {
     return (
@@ -143,7 +129,7 @@ class ContactForm extends React.Component {
             required
             type="textarea"
             name="message"
-            placeholder="Please provide some information about the house like location, size, ect. "
+            placeholder="Please provide some information about the house like, location, size, ect. "
           />
           <Submit type="submit" value="SEND" />
         </Form>

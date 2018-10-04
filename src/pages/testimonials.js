@@ -56,6 +56,7 @@ const Li = styled.li`
   padding: 50px;
   text-align: left;
   border: 2px solid #224264;
+  line-height: 1.8;
   background: #224264;
   color: #e9eef3;
   box-shadow: 0 4px 4px -10px rgba(0, 0, 0, 0.1);
