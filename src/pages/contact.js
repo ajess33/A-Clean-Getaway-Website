@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Footer from '../components/Footer'
 import Nav from '../components/Nav'
+import '../styles/home.css'
 
 const Title = styled.div`
   display: flex;
@@ -124,6 +125,8 @@ class ContactForm extends React.Component {
           <Input required type="email" name="email" />
           <Label>PHONE</Label>
           <Input type="phone" name="phone" />
+          <Label>HOW DID YOU HEAR ABOUT US?</Label>
+          <Input className="hear" type="text" name="hear" />
           <Label>MESSAGE</Label>
           <MessageInput
             required

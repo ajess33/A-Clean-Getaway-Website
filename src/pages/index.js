@@ -177,7 +177,7 @@ const CardWrapper = styled.div`
 `
 
 const OfferCard = styled.div`
-  margin: 20px auto 0 auto;
+  margin: 0 auto;
   color: #435c7f;
   padding: 40px 20px;
   text-align: center;

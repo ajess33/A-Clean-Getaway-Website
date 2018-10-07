@@ -2,11 +2,7 @@
   background-color: #224264;
 } */
 
-.main {
-  background-color: #224264;
-}
-
-.navbar {
+/* .navbar {
   display: flex;
   justify-content: space-evenly;
   align-items: baseline;
@@ -77,18 +73,17 @@
     position: absolute;
     top: 30px;
     right: 10px;
-  }
+  } */
 
-  /* ================ */
+/* ================ */
 
-  /* align-self: flex-end;
+/* align-self: flex-end;
   display: initial;
   position: absolute; */
 
-  /* .navbar__toggle--show {
+/* .navbar__toggle--show {
     display: flex;
   } */
-}
 
 /* ========================== */
 /* HEADER */
@@ -97,8 +92,9 @@
 .header {
   display: flex;
   justify-content: space-evenly;
-  padding: 0 20px 80px 50px;
+  padding: 10px 20px 80px 50px;
   margin: 0 auto;
+  background: #224264;
 }
 
 .header__title {
