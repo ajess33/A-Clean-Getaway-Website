@@ -37,20 +37,22 @@ const VinegarTip = () => {
       <H4>Vinegar</H4>
       <Ul>
         <li>
-          <FaLight /> Clean stainless steel sinks with a paste of baking soda
-          and vinegar. Foam is good!
+          <FaLight /> Remove bathtub film by wiping it first with white
+          distilled vinegar then with baking soda. Rinse away grime with clean
+          water.
         </li>
         <li>
-          <FaLight /> Add 2-3 tablespoons white vinegar to hot water along with
-          your regular dish-washing liquid to cut grease on dishes and crystal
+          <FaLight /> Around flu season, use a 50/50 vinegar-water mix to wipe
+          down doorknobs, faucet handles, light switches, ect.
         </li>
         <li>
-          <FaLight /> Wipe down counter tops with undiluted white vinegar to
-          kill ants
+          <FaLight /> To clean in between the keys of your keyboard, dip a
+          cotton swab in a vinegar-water mix and gently rub between the keys or
+          any other tight spaces.
         </li>
         <li>
-          <FaLight /> White vinegar added to a wet, lint-free rag will remove
-          grease film from automobile windows and give you a streak-free shine
+          <FaLight /> Need to get rid of pen marks? Dab some vinegar on a cloth
+          or sponge and rub until marks are gone.
         </li>
       </Ul>
     </TipWrapper>
@@ -63,18 +65,20 @@ const BakingSodaTip = () => {
       <H4>Baking Soda</H4>
       <Ul>
         <li>
-          <FaLight /> Remove heel marks from hard floors using a damp cloth and
-          baking soda
+          <FaLight /> Remove crayon markings from the wall with a damp sponge
+          sprinkled in baking soda.
         </li>
         <li>
-          <FaLight /> Put a thin layer in the bottom of a cat litter box and top
-          with litter as usual to help eliminate odor
+          <FaLight /> Scrub your tile, tub, and sink with a damp sponge and
+          baking soda. Rinse after scrubbing.
         </li>
         <li>
-          <FaLight /> Use baking soda on a damp cloth to polish silver
+          <FaLight /> Sprinkle some baking soda in the trashcan every once in a
+          while to help absord odors.
         </li>
         <li>
-          <FaLight /> Clean smudges on wallpaper with baking soda and water
+          <FaLight /> Mix a decent amount of baking soda in with your litty
+          litter to cut down on odor.
         </li>
       </Ul>
     </TipWrapper>
@@ -87,17 +91,20 @@ const LemonTip = () => {
       <H4>Lemon Juice</H4>
       <Ul>
         <li>
-          <FaLight /> Apply to clothes, undiluted, to remove fruit based stains
+          <FaLight /> Rub lemon juice on your cutting board stains and let it
+          sit until they are all gone. This will also disenfect the board too.
         </li>
         <li>
-          <FaLight /> Remove stains on hands with lemon juice
+          <FaLight /> Use lemon juice and salt to scrub your grill and its
+          grates.
         </li>
         <li>
-          <FaLight /> Remove rust from clothes by applying lemon juice and
-          laying the garment in the sun
+          <FaLight /> Help remove refrigerator odors by placing a half lemon on
+          a plate inside. Remove once each week.
         </li>
         <li>
-          <FaLight /> Apply lemon juice to chrome and buff to a shine
+          <FaLight /> Help eliminate your bug problem by squeezing lemon juice
+          along windowsills and doors. This will stop them from entering.
         </li>
       </Ul>
     </TipWrapper>

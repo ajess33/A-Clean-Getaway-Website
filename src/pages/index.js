@@ -27,10 +27,12 @@ import { FaEnvira } from 'react-icons/fa'
 //   ]}
 // />
 const IndexPage = data => (
-  <div>
-    <Nav />
-    <Header />
-    <Home />
+  <div className="page-container">
+    <Wrapper>
+      <Nav />
+      <Header />
+      <Home />
+    </Wrapper>
   </div>
 )
 
@@ -73,13 +75,14 @@ class Home extends React.Component {
               founded by Joanne Jess. For over 30 years, we have earned a
               reputation as a trusted and reliable cleaning service working
               around the <strong>Cedar Rapids area</strong>. We provide cleaning
-              services to small businesses, families, couples, the elderly, and
-              busy professionals like you. Our team of experienced home cleaning
-              experts can handle business and homes of any shape, size, or
-              layout. Families with children and/or pets welcomed!
+              services for residential and commercial customers. Our team of
+              experienced home cleaning experts can handle business and homes of
+              any shape, size, or layout. Families with children and/or pets
+              welcomed! All A Clean Getaway employees receive a background
+              screening before being hired.
             </Paragraph>
           </Section>
-          j<HomeCards />
+          <HomeCards />
         </Div>
         <Spacer>
           <img
@@ -129,6 +132,11 @@ const HomeCards = () => {
 }
 
 export default IndexPage
+
+const Wrapper = styled.div`
+  max-width: 1400px;
+  margin: 0 auto;
+`
 
 const OfferWrap = styled.div`
   display: flex;
@@ -182,6 +190,7 @@ const OfferCard = styled.div`
   padding: 40px 20px;
   text-align: center;
   font-weight: heavy;
+  background: white;
 `
 
 const Section = styled.section`

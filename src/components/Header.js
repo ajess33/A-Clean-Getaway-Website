@@ -14,9 +14,9 @@ class Header extends React.Component {
               <div className="header">
                 <div>
                   <h1 className="header__title">A Clean Getaway, LLC</h1>
-                  <h4 className="header__slogan">
+                  <h2 className="header__slogan">
                     <em>"We Don't Cut Corners, We Clean Them!"</em>
-                  </h4>
+                  </h2>
                   <p className="header__phone">319-929-6266</p>
                   <Link className="btn__link" to="/contact/">
                     GET A QUOTE

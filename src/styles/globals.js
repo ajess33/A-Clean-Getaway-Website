@@ -22,7 +22,7 @@ export const PrimaryButton = styled(Link)`
 
 export const H2 = styled.h2`
   display: inline-block;
-  color: #66c3cc;
+  color: #224364;
   padding: 10px;
   margin: 0;
   font-size: 2rem;

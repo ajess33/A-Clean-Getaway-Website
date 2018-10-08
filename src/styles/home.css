@@ -18,6 +18,12 @@ img {
   width: 150px;
 }
 
+@media (max-width: 850px) {
+  .contract__icon {
+    margin-top: 60px;
+  }
+}
+
 .title {
   font-size: 1.5rem;
 }
@@ -59,6 +65,11 @@ img {
   color: #224364;
 }
 
+/* @media (min-width: 1400px) {
+  .page-container {
+  }
+} */
+
 /* ===================== */
 /* Reviews */
 /* ===================== */
@@ -72,7 +83,7 @@ img {
 /* Contact */
 /* ===================== */
 
-.hear {
+.hear-question {
   width: 350px;
 }
 

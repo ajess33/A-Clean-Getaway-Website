@@ -19,7 +19,7 @@ const Container = styled.div`
 
 const Title = styled.h2`
   display: inline-block;
-  color: #66c3cc;
+  color: #224364;
   padding: 10px;
   margin-top: 27px;
   font-size: 2rem;

@@ -33,7 +33,7 @@ const Paragraph = styled.p`
 
 const FlexWrapper = styled.div`
   display: flex;
-  padding: 60px 75px 20px 75px;
+  padding: 20px 75px 20px 75px;
   justify-content: space-evenly;
 `
 
@@ -59,6 +59,10 @@ const Input = styled.input`
   font-weight: normal;
   margin-bottom: 10px;
   padding: 0 10px 0 10px;
+`
+
+const ReferralInput = styled(Input)`
+  width: 350px;
 `
 
 const MessageInput = styled.textarea`
@@ -118,21 +122,23 @@ class ContactForm extends React.Component {
             using the form below or email directly at jjjess3219@aol.com.
           </Paragraph>
         </Title>
-        <Form method="POST" action="#">
+        <Form name="contact" method="POST" netlify action="#">
+          <input type="hidden" name="form-name" value="contact" />
           <Label>NAME</Label>
-          <Input required type="text" name="name" />
+          <Input required type="text" name="name" for="name" />
           <Label>EMAIL</Label>
-          <Input required type="email" name="email" />
+          <Input required type="email" name="email" for="email" />
           <Label>PHONE</Label>
-          <Input type="phone" name="phone" />
+          <Input type="phone" name="phone" for="phone" />
           <Label>HOW DID YOU HEAR ABOUT US?</Label>
-          <Input className="hear" type="text" name="hear" />
+          <ReferralInput type="text" name="hear" for="referral" />
           <Label>MESSAGE</Label>
           <MessageInput
             required
             type="textarea"
             name="message"
             placeholder="Please provide some information about the house like, location, size, ect. "
+            for="message"
           />
           <Submit type="submit" value="SEND" />
         </Form>

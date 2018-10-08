@@ -4,14 +4,11 @@
   margin: 0;
 }
 
-body {
-  font-family: 'Josefin Sans', sans-serif;
-}
-
 .navbar {
   background: #224364;
   font-size: 18px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
+  letter-spacing: 1.3px;
 }
 
 .main-nav {
@@ -35,6 +32,7 @@ body {
 .main-nav li {
   text-align: center;
   margin: 15px auto;
+  font-size: 0.8rem;
 }
 
 .logo {
@@ -42,6 +40,7 @@ body {
   font-size: 22px;
   margin-top: 10px;
   margin-left: 20px;
+  font-size: 0.9rem;
 }
 
 .navbar-toggle {
@@ -62,7 +61,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding-bottom: 0;
-    height: 70px;
+    height: 100px;
     align-items: baseline;
   }
 
