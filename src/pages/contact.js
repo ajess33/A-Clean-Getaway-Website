@@ -13,7 +13,7 @@ const Title = styled.div`
 `
 
 const H2 = styled.h2`
-  color: #66c3cc;
+  color: #224364;
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -59,6 +59,10 @@ const Input = styled.input`
   font-weight: normal;
   margin-bottom: 10px;
   padding: 0 10px 0 10px;
+`
+
+const QuestionInput = styled(Input)`
+  width: 350px;
 `
 
 const MessageInput = styled.textarea`
@@ -126,7 +130,7 @@ class ContactForm extends React.Component {
           <Label>PHONE</Label>
           <Input type="phone" name="phone" />
           <Label>HOW DID YOU HEAR ABOUT US?</Label>
-          <Input className="hear" type="text" name="hear" />
+          <QuestionInput type="text" name="hear" />
           <Label>MESSAGE</Label>
           <MessageInput
             required
