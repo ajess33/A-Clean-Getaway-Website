@@ -13,7 +13,7 @@ const Title = styled.div`
 `
 
 const H2 = styled.h2`
-  color: #66c3cc;
+  color: #224364;
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
