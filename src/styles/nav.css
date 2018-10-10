@@ -52,6 +52,10 @@
   font-size: 24px;
 }
 
+.pic {
+  margin: 0;
+}
+
 .active {
   display: block;
 }
