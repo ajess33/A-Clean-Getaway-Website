@@ -5,6 +5,7 @@ import '../styles/home.css'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
+import { Wrapper, PageWrap } from '../styles/globals'
 
 const FaCheck = styled(FaCheckCircle)`
   color: #66c3cc;
@@ -84,140 +85,148 @@ const P = styled.p`
 class Services extends React.Component {
   render() {
     return (
-      <div>
-        <Nav />
-        <Header />
-        <Container>
-          <Title>What You Can Expect</Title>
-          <br />
-        </Container>
-        <ServicesWrapper>
-          <H3>Residential</H3>
-          <P>
-            Our cleaning services for homes and apartments are performed on a
-            scheduled weekly, bi-monthly, or monthly basis. After the initial{' '}
-            <strong>DEEP CLEAN</strong> if you decide to become a regular
-            customer, you will be given a <strong>FLAT RATE</strong>. And you
-            will <strong>NEVER SIGN A CONTRACT</strong>.<br /> <br /> <br />
-            Our services vary from customer to customer, but outlined below is
-            our basic cleaning service.
-          </P>
-          <Div>
-            <ServiceBox>
-              <H4>General Areas</H4>
-              <List>
-                <li>
-                  <FaCheck />
-                  Dust furniture, pictures, baseboards, ect.
-                </li>
-                <li>
-                  <FaCheck />
-                  Spot clean windows for smudges
-                </li>
-                <li>
-                  <FaCheck />
-                  Wipe flat surfaces
-                </li>
-                <li>
-                  <FaCheck />
-                  Vacuum and/or mop floors
-                </li>
-                <li>
-                  <FaCheck />
-                  Clean television screen
-                </li>
-                <li>
-                  <FaCheck />
-                  Dust cobwebs
-                </li>
-              </List>
-            </ServiceBox>
-            <ServiceBox>
-              <H4>Kitchen</H4>
-              <List>
-                <li>
-                  <FaCheck />
-                  Wash sink
-                </li>
-                <li>
-                  <FaCheck />
-                  Clean counter tops
-                </li>
-                <li>
-                  <FaCheck />
-                  Vacuum and mop floor
-                </li>
-                <li>
-                  <FaCheck />
-                  Wipe outside of appliances and cabinents
-                </li>
-                <li>
-                  <FaCheck />
-                  Dust and wipe tables/chairs
-                </li>
-                <li>
-                  <FaCheck />
-                  Take out trash
-                </li>
-              </List>
-            </ServiceBox>
-            <ServiceBox>
-              <H4>Bathrooms</H4>
-              <List>
-                <li>
-                  <FaCheck />
-                  Clean shower/tub
-                </li>
-                <li>
-                  <FaCheck />
-                  Clean and disenfect toilet
-                </li>
-                <li>
-                  <FaCheck />
-                  Dust and wipe counters/sinks
-                </li>
-                <li>
-                  <FaCheck />
-                  Wipe mirrors and glass
-                </li>
-                <li>
-                  <FaCheck />
-                  Take out trash
-                </li>
-              </List>
-            </ServiceBox>
-            <ServiceBox>
-              <H4>Bedrooms</H4>
-              <List>
-                <li>
-                  <FaCheck />
-                  Dust pictures, ledges, window blinds
-                </li>
-                <li>
-                  <FaCheck />
-                  Wipe flat surfaces
-                </li>
-                <li>
-                  <FaCheck />
-                  Vacuum and/or mop floors
-                </li>
-                <li>
-                  <FaCheck />
-                  Clean television screen
-                </li>
-                <li>
-                  <FaCheck />
-                  Make bed (if needed)
-                </li>
-              </List>
-            </ServiceBox>
-          </Div>
-        </ServicesWrapper>
-        <Commercial />
-        <Footer />
-      </div>
+      <PageWrap>
+        <Wrapper>
+          <Nav />
+          <Header />
+          <Container>
+            <Title>What You Can Expect</Title>
+            <br />
+          </Container>
+          <Residential />
+          <Commercial />
+          <Footer />
+        </Wrapper>
+      </PageWrap>
     )
   }
+}
+
+const Residential = () => {
+  return (
+    <ServicesWrapper>
+      <H3>Residential</H3>
+      <P>
+        Our cleaning services for homes and apartments are performed on a
+        scheduled weekly, bi-monthly, or monthly basis. After the initial{' '}
+        <strong>DEEP CLEAN</strong> if you decide to become a regular customer,
+        you will be given a <strong>FLAT RATE</strong>. And you will{' '}
+        <strong>NEVER SIGN A CONTRACT</strong>.<br /> <br /> <br />
+        Our services vary from customer to customer, but outlined below is our
+        basic cleaning service.
+      </P>
+      <Div>
+        <ServiceBox>
+          <H4>General Areas</H4>
+          <List>
+            <li>
+              <FaCheck />
+              Dust furniture, pictures, baseboards, ect.
+            </li>
+            <li>
+              <FaCheck />
+              Spot clean windows for smudges
+            </li>
+            <li>
+              <FaCheck />
+              Wipe flat surfaces
+            </li>
+            <li>
+              <FaCheck />
+              Vacuum and/or mop floors
+            </li>
+            <li>
+              <FaCheck />
+              Clean television screen
+            </li>
+            <li>
+              <FaCheck />
+              Dust cobwebs
+            </li>
+          </List>
+        </ServiceBox>
+        <ServiceBox>
+          <H4>Kitchen</H4>
+          <List>
+            <li>
+              <FaCheck />
+              Wash sink
+            </li>
+            <li>
+              <FaCheck />
+              Clean counter tops
+            </li>
+            <li>
+              <FaCheck />
+              Vacuum and mop floor
+            </li>
+            <li>
+              <FaCheck />
+              Wipe outside of appliances and cabinents
+            </li>
+            <li>
+              <FaCheck />
+              Dust and wipe tables/chairs
+            </li>
+            <li>
+              <FaCheck />
+              Take out trash
+            </li>
+          </List>
+        </ServiceBox>
+        <ServiceBox>
+          <H4>Bathrooms</H4>
+          <List>
+            <li>
+              <FaCheck />
+              Clean shower/tub
+            </li>
+            <li>
+              <FaCheck />
+              Clean and disenfect toilet
+            </li>
+            <li>
+              <FaCheck />
+              Dust and wipe counters/sinks
+            </li>
+            <li>
+              <FaCheck />
+              Wipe mirrors and glass
+            </li>
+            <li>
+              <FaCheck />
+              Take out trash
+            </li>
+          </List>
+        </ServiceBox>
+        <ServiceBox>
+          <H4>Bedrooms</H4>
+          <List>
+            <li>
+              <FaCheck />
+              Dust pictures, ledges, window blinds
+            </li>
+            <li>
+              <FaCheck />
+              Wipe flat surfaces
+            </li>
+            <li>
+              <FaCheck />
+              Vacuum and/or mop floors
+            </li>
+            <li>
+              <FaCheck />
+              Clean television screen
+            </li>
+            <li>
+              <FaCheck />
+              Make bed (if needed)
+            </li>
+          </List>
+        </ServiceBox>
+      </Div>
+    </ServicesWrapper>
+  )
 }
 
 const Commercial = () => {

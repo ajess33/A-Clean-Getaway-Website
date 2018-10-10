@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Footer from '../components/Footer'
 import Nav from '../components/Nav'
 import '../styles/home.css'
+import { PageWrap, Wrapper } from '../styles/globals'
 
 const Title = styled.div`
   display: flex;
@@ -99,13 +100,15 @@ const Submit = styled.input`
 class Contact extends React.Component {
   render() {
     return (
-      <div>
-        <Nav />
-        <FlexWrapper>
-          <ContactForm />
-        </FlexWrapper>
-        <Footer />
-      </div>
+      <PageWrap>
+        <Wrapper>
+          <Nav />
+          <FlexWrapper>
+            <ContactForm />
+          </FlexWrapper>
+          <Footer />
+        </Wrapper>
+      </PageWrap>
     )
   }
 }

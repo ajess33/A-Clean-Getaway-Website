@@ -45,3 +45,14 @@ export const QuoteButton = styled.a`
   box-shadow: 0 2px 5px 0 rgba(34, 67, 111, 0.14);
   font-weight: bold;
 `
+
+export const PageWrap = styled.div`
+  background: #597291;
+  width: 100%;
+`
+
+export const Wrapper = styled.div`
+  max-width: 1400px;
+  margin: 0 auto;
+  background: white;
+`

@@ -1,13 +1,14 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import Link from 'gatsby-link'
+import { graphql } from 'gatsby'
 import styled from 'styled-components'
 import Footer from '../components/Footer'
 import '../styles/home.css'
 import norwexPhoto from '../assets/norwex-pic-1200.jpg'
 import Header from '../components/Header'
 import ReviewAnimation from '../components/ReviewAnimation'
-import { H2 } from '../styles/globals'
+import { PageWrap, Wrapper } from '../styles/globals'
 import Nav from '../components/Nav'
 import noContractsIcon from '../assets/no-contracts.svg'
 import { FaEnvira } from 'react-icons/fa'
@@ -26,13 +27,16 @@ import { FaEnvira } from 'react-icons/fa'
 //     },
 //   ]}
 // />
-const IndexPage = data => (
+const IndexPage = ({ data }) => (
   <div className="page-container">
-    <Wrapper>
-      <Nav />
-      <Header />
-      <Home />
-    </Wrapper>
+    <Helmet title={data.site.siteMetadata.title} />
+    <PageWrap>
+      <Wrapper>
+        <Nav />
+        <Header />
+        <Home />
+      </Wrapper>
+    </PageWrap>
   </div>
 )
 
@@ -133,11 +137,6 @@ const HomeCards = () => {
 
 export default IndexPage
 
-const Wrapper = styled.div`
-  max-width: 1400px;
-  margin: 0 auto;
-`
-
 const OfferWrap = styled.div`
   display: flex;
   max-width: 400px;
@@ -225,4 +224,14 @@ const Paragraph = styled.p`
   max-width: 700px;
   margin: 0 auto;
   text-align: left;
+`
+
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
 `
