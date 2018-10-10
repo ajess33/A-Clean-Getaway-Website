@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import '../styles/header.css'
-import SmallLogo from '../assets/logo-small.png'
 import MedLogo from '../assets/logo-medium.png'
 
 class Header extends React.Component {

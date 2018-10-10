@@ -1,5 +1,4 @@
 import React from 'react'
-import styled from 'styled-components'
 import SmallLogo from '../assets/logo-small.png'
 import Link from 'gatsby-link'
 import '../styles/footer.css'
@@ -23,7 +22,7 @@ import '../styles/footer.css'
 const Footer = () => (
   <div className="wrapper">
     <div className="footer--container">
-      <Link className="footer__link" exact to="/">
+      <Link className="footer__link" exact="true" to="/">
         Home
       </Link>
       <Link className="footer__link" to="/services/">
@@ -51,6 +50,3 @@ const Footer = () => (
 )
 
 export default Footer
-
-// <div>
-// </div>

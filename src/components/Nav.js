@@ -16,11 +16,11 @@ class Nav extends React.Component {
   render() {
     return (
       <div>
-        <nav class="navbar">
+        <nav className="navbar">
           <span className="navbar-toggle" id="js-navbar-toggle">
             <FaBars size={25} />
           </span>
-          <Link exact to="/" className="logo">
+          <Link exact="true" to="/" className="logo">
             A Clean Getaway{' '}
             <img className="pic" src={SmallLogo} alt="Leaf Logo" />
           </Link>

@@ -1,7 +1,6 @@
 import React from 'react'
 import data from '../assets/reviewData'
 import styled from 'styled-components'
-import Link from 'gatsby-link'
 import { PrimaryButton } from '../styles/globals'
 import '../styles/home.css'
 
