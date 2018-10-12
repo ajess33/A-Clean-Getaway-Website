@@ -10,7 +10,6 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
-    `gatsby-plugin-netlify`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {
