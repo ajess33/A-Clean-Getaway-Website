@@ -16,6 +16,7 @@ img {
 
 .contract__icon {
   width: 150px;
+  margin-bottom: 0;
 }
 
 @media (max-width: 850px) {
