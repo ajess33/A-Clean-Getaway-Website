@@ -133,15 +133,21 @@ class ContactForm extends React.Component {
           data-netlify-honeypot="bot-field"
         >
           <input type="hidden" name="form-name" value="contact-form" />
-          <Label>NAME</Label>
+          <Label>
+            NAME <span className="red">*</span>
+          </Label>
           <Input required type="text" name="name" for="name" />
-          <Label>EMAIL</Label>
+          <Label>
+            EMAIL <span className="red">*</span>
+          </Label>
           <Input required type="email" name="email" for="email" />
           <Label>PHONE</Label>
           <Input type="phone" name="phone" for="phone" />
           <Label>HOW DID YOU HEAR ABOUT US?</Label>
-          <ReferralInput type="text" name="hear" for="referral" />
-          <Label>MESSAGE</Label>
+          <ReferralInput type="text" name="referral" for="referral" />
+          <Label>
+            MESSAGE <span className="red">*</span>
+          </Label>
           <MessageInput
             required
             type="textarea"
