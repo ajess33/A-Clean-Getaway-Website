@@ -125,8 +125,14 @@ class ContactForm extends React.Component {
             using the form below or email directly at jjjess3219@aol.com.
           </Paragraph>
         </Title>
-        <Form name="contact" method="POST" data-netlify="true">
-          <input type="hidden" name="form-name" value="contact" />
+        <Form
+          name="contact-form"
+          method="POST"
+          data-netlify="true"
+          netlify
+          data-netlify-honeypot="bot-field"
+        >
+          <input type="hidden" name="form-name" value="contact-form" />
           <Label>NAME</Label>
           <Input required type="text" name="name" for="name" />
           <Label>EMAIL</Label>
