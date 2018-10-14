@@ -62,9 +62,11 @@
 
 @media (max-width: 864px) {
   .header {
-    padding: 10px 0 100px 50px;
+    /* padding: 10px 0 100px 50px; */
+    padding: 0;
+    height: 330px;
+    margin: 0 auto;
   }
-
   .header__title {
     font-size: 2.5rem;
   }
@@ -77,9 +79,7 @@
   .header img {
     display: none;
   }
-
   .header {
-    margin: 0 auto;
-    padding-left: 0;
+    text-align: center;
   }
 }
