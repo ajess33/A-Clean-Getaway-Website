@@ -14,12 +14,15 @@ img {
 .footer--container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer__link {
   color: #e9eef3;
   font-size: 0.8rem;
-  display: inline;
+  display: inline-block;
+  width: auto;
 }
 
 .footer__link:hover {
