@@ -27,6 +27,7 @@ import { FaEnvira } from 'react-icons/fa'
 //     },
 //   ]}
 // />
+
 const IndexPage = ({ data }) => (
   <div className="page-container">
     <Helmet>
@@ -34,6 +35,10 @@ const IndexPage = ({ data }) => (
       <meta
         name="description"
         content="Tired of coming home to a dirty house? Let us clean it for you! A Clean Getaway, LLC is a professional cleaning service that you can trust. Serving both residential and commercial customers."
+      />
+      <meta
+        name="google-site-verification"
+        content="EUGr16o_6I9QdgPP8KJg39IcSnKgqQ6gOi66CaA6HiM"
       />
     </Helmet>
     <PageWrap>
