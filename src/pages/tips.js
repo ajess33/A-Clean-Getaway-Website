@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 import { H2, Center, PageWrap, Wrapper } from '../styles/globals'
@@ -11,6 +12,13 @@ class Tips extends React.Component {
   render() {
     return (
       <PageWrap>
+        <Helmet>
+          <title>Cleaning Tips</title>
+          <meta
+            name="description"
+            content="Some quick and easy cleaning tips. The best part is, you already have the cleaning solutions!"
+          />
+        </Helmet>
         <Wrapper>
           <Nav />
           <Header />

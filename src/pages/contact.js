@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import styled from 'styled-components'
 import Footer from '../components/Footer'
 import Nav from '../components/Nav'
@@ -101,6 +102,13 @@ class Contact extends React.Component {
   render() {
     return (
       <PageWrap>
+        <Helmet>
+          <title>Contact Us</title>
+          <meta
+            name="description"
+            content="Feel free to contact A Clean Getaway, LLC with and questions or comments you may have."
+          />
+        </Helmet>
         <Wrapper>
           <Nav />
           <FlexWrapper>

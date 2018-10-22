@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 import styled from 'styled-components'
@@ -10,6 +11,13 @@ class Testimonails extends React.Component {
   render() {
     return (
       <PageWrap>
+        <Helmet>
+          <title>Our Testimonials</title>
+          <meta
+            name="description"
+            content="Check out what previous customers have to say about A Clean Getaway, LLC."
+          />
+        </Helmet>
         <Wrapper>
           <Nav />
           <Header />

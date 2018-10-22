@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { FaCheckCircle } from 'react-icons/fa'
+import { Helmet } from 'react-helmet'
 import '../styles/home.css'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
@@ -86,6 +87,13 @@ class Services extends React.Component {
   render() {
     return (
       <PageWrap>
+        <Helmet>
+          <title>Our Cleaning Services</title>
+          <meta
+            name="description"
+            content="Know what to expect by checking out our residential and commercial services."
+          />
+        </Helmet>
         <Wrapper>
           <Nav />
           <Header />
