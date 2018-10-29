@@ -6,7 +6,7 @@ import styled from 'styled-components'
 import Footer from '../components/Footer'
 import '../styles/home.css'
 import norwexPhoto from '../assets/norwex-pic-1200.jpg'
-import favicon from '../favicon.png'
+import favicon from '../favicon.ico'
 import Header from '../components/Header'
 import ReviewAnimation from '../components/ReviewAnimation'
 import { PageWrap, Wrapper } from '../styles/globals'
@@ -20,7 +20,7 @@ const IndexPage = ({ data }) => (
   <div className="page-container">
     <Helmet>
       <title>{data.site.siteMetadata.title}</title>
-      <link>{data.site.siteMetadata.logo}</link>
+      <link rel="icon" type="image/ico" href={favicon} />
       <meta
         name="description"
         content="Tired of coming home to a dirty house? Let us clean it for you! A Clean Getaway, LLC is a professional cleaning service that you can trust. Serving both residential and commercial customers."

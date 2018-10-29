@@ -1,5 +1,5 @@
 import React from 'react'
-import SmallLogo from '../favicon.png'
+import SmallLogo from '../assets/logo-small.png'
 import Link from 'gatsby-link'
 import '../styles/footer.css'
 
@@ -43,7 +43,7 @@ const Footer = () => (
       <p>jjjess3219@aol.com</p>
       <p>
         A Clean Getaway, LLC
-        <img src={SmallLogo} alt="leaf logo" />
+        <img src={SmallLogo} size={32} alt="leaf logo" />
       </p>
     </div>
   </div>

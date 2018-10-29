@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import '../styles/nav.css'
-import SmallLogo from '../favicon.png'
+import SmallLogo from '../assets/logo-small.png'
 import { FaBars } from 'react-icons/fa'
 
 class Nav extends React.Component {
