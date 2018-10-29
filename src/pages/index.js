@@ -6,27 +6,13 @@ import styled from 'styled-components'
 import Footer from '../components/Footer'
 import '../styles/home.css'
 import norwexPhoto from '../assets/norwex-pic-1200.jpg'
+import favicon from '../assets/logo-small.png'
 import Header from '../components/Header'
 import ReviewAnimation from '../components/ReviewAnimation'
 import { PageWrap, Wrapper } from '../styles/globals'
 import Nav from '../components/Nav'
 import noContractsIcon from '../assets/no-contracts.svg'
 import { FaEnvira } from 'react-icons/fa'
-
-// <Helmet
-//   title={data.site.metadata.title}
-//   meta={[
-//     {
-//       name: 'description',
-//       content:
-//         'Tired of coming home to a dirty house? Let us clean it for you! A Clean Getaway, LLC is a professional cleaning service that you can trust. Serving both residential and commercial customers.',
-//     },
-//     {
-//       name: 'keywords',
-//       content: 'cleaning, service, cedar rapids',
-//     },
-//   ]}
-// />
 
 const IndexPage = ({ data }) => (
   <div className="page-container">
@@ -40,6 +26,7 @@ const IndexPage = ({ data }) => (
         name="google-site-verification"
         content="EUGr16o_6I9QdgPP8KJg39IcSnKgqQ6gOi66CaA6HiM"
       />
+      <link rel="favicon" type="image/png" href={favicon} />
     </Helmet>
     <PageWrap>
       <Wrapper>
