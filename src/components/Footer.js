@@ -1,5 +1,5 @@
 import React from 'react'
-import SmallLogo from '../assets/logo-small.png'
+import SmallLogo from '../favicon.png'
 import Link from 'gatsby-link'
 import '../styles/footer.css'
 
