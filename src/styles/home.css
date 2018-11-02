@@ -44,6 +44,10 @@ img {
 /* INDEX PAGE */
 /* ============== */
 
+.donation-photo {
+  width: 250px;
+}
+
 .paragraph--link {
   font-size: 1.3rem;
   font-weight: bold;

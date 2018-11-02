@@ -7,6 +7,7 @@ import Footer from '../components/Footer'
 import '../styles/home.css'
 import norwexPhoto from '../assets/norwex-pic-1200.jpg'
 import favicon from '../favicon.ico'
+import donationPhoto from '../assets/donation-icon.png'
 import Header from '../components/Header'
 import ReviewAnimation from '../components/ReviewAnimation'
 import { PageWrap, Wrapper } from '../styles/globals'
@@ -14,7 +15,7 @@ import Nav from '../components/Nav'
 import noContractsIcon from '../assets/no-contracts.svg'
 import { FaEnvira } from 'react-icons/fa'
 
-// MOVE FAVICON.PNG TO SRC FOLDER AND CHANGE IMPORTS
+// Vecteezy attribution for charity icon
 
 const IndexPage = ({ data }) => (
   <div className="page-container">
@@ -44,26 +45,32 @@ const Offer = () => {
   return (
     <div>
       <OfferCard>
+        <img
+          className="donation-photo"
+          src={donationPhoto}
+          alt="Two hands holding up a heart"
+        />
         <strong>
           <p className="num title">
-            New customers receive a donation to a charity of their choice
+            ALL ON-GOING CUSTOMERS RECEIVE A DONATION TO A CHARITY OF THEIR
+            CHOICE!
           </p>
         </strong>
-        <OfferWrap>
-          <div>
-            <Num className="num">50$</Num>
-            <p className="num--caption">Bi-monthly customers</p>
-          </div>
-          <div>
-            <Num className="num">25$</Num>
-            <p className="num--caption">All other customers</p>
-          </div>
-        </OfferWrap>
       </OfferCard>
     </div>
   )
 }
 
+// <OfferWrap>
+//   <div>
+//     <Num className="num">50$</Num>
+//     <p className="num--caption">Bi-monthly customers</p>
+//   </div>
+//   <div>
+//     <Num className="num">25$</Num>
+//     <p className="num--caption">All other customers</p>
+//   </div>
+// </OfferWrap>
 class Home extends React.Component {
   render() {
     return (
@@ -137,17 +144,12 @@ const HomeCards = () => {
 
 export default IndexPage
 
-const OfferWrap = styled.div`
-  display: flex;
-  max-width: 400px;
-  justify-content: space-evenly;
-  margin: 0 auto;
-`
-
-const Num = styled.p`
-  font-size: 4.5rem;
-  font-family: 'Montserrat';
-`
+// const OfferWrap = styled.div`
+//   display: flex;
+//   max-width: 400px;
+//   justify-content: space-evenly;
+//   margin: 0 auto;
+// `
 
 const CardSection = styled.section`
   background-color: #66c3cc;
@@ -190,6 +192,7 @@ const OfferCard = styled.div`
   text-align: center;
   font-weight: heavy;
   background: white;
+  max-width: 800px;
 `
 
 const Section = styled.section`
@@ -224,6 +227,7 @@ const Paragraph = styled.p`
   max-width: 700px;
   margin: 0 auto;
   text-align: left;
+  padding-bottom: 50px;
 `
 
 export const query = graphql`
