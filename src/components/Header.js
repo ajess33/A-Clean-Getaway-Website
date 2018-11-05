@@ -12,7 +12,7 @@ class Header extends React.Component {
             <header>
               <div className="header">
                 <div>
-                  <h1 className="header__title">A Clean Getaway, LLC</h1>
+                  <h1 className="header__title">A Clean Getaway</h1>
                   <h2 className="header__slogan">
                     <em>"We Don't Cut Corners, We Clean Them!"</em>
                   </h2>
