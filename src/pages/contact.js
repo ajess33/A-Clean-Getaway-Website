@@ -103,7 +103,7 @@ class Contact extends React.Component {
     return (
       <PageWrap>
         <Helmet>
-          <title>Contact Us</title>
+          <title>Contact A Clean Getaway</title>
           <meta
             name="description"
             content="Feel free to contact A Clean Getaway, LLC with and questions or comments you may have."

@@ -24,7 +24,7 @@ const IndexPage = ({ data }) => (
       <link rel="icon" type="image/ico" href={favicon} />
       <meta
         name="description"
-        content="Tired of coming home to a dirty house? Let us clean it for you! A Clean Getaway, LLC is a professional cleaning service that you can trust. Serving both residential and commercial customers."
+        content="Tired of coming home to a dirty house? Let us clean it for you! A Clean Getaway, LLC is a professional cleaning service that you can trust."
       />
       <meta
         name="google-site-verification"
