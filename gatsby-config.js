@@ -24,5 +24,18 @@ module.exports = {
         head: false,
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `A Clean Getaway`,
+        short_name: `ACleanGetaway`,
+        start_url: `/`,
+        background_color: `#eee`,
+        theme_color: `#224364`,
+        display: `minimal-ui`,
+        icon: `src/assets/logo-small.png`,
+      },
+    },
+    `gatsby-plugin-offline`,
   ],
 }
