@@ -30,6 +30,7 @@ const IndexPage = ({ data }) => (
         name="google-site-verification"
         content="EUGr16o_6I9QdgPP8KJg39IcSnKgqQ6gOi66CaA6HiM"
       />
+      <html lang="en" />
     </Helmet>
     <PageWrap>
       <Wrapper>
