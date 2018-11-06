@@ -62,16 +62,6 @@ const Offer = () => {
   )
 }
 
-// <OfferWrap>
-//   <div>
-//     <Num className="num">50$</Num>
-//     <p className="num--caption">Bi-monthly customers</p>
-//   </div>
-//   <div>
-//     <Num className="num">25$</Num>
-//     <p className="num--caption">All other customers</p>
-//   </div>
-// </OfferWrap>
 class Home extends React.Component {
   render() {
     return (
@@ -131,34 +121,28 @@ const HomeCards = () => {
           <CardTitle>No Contracts</CardTitle>
           <p>Stop service at any time if you are unhappy</p>
         </Card>
-        <p className="paragraph__white">
-          FOR A FREE ESTIMATE CALL{' '}
-          <span className="phoneNumber">319-929-6266</span> OR <br />
-          <Link className="paragraph--link" to="/contact/">
-            FILL OUT OUR FORM
-          </Link>
-        </p>
       </CardWrapper>
+      <p className="paragraph__white">
+        FOR A FREE ESTIMATE CALL{' '}
+        <span className="phoneNumber">319-929-6266</span> OR
+      </p>
+      <Link className="paragraph--link" to="/contact/">
+        FILL OUT OUR FORM
+      </Link>
     </CardSection>
   )
 }
 
 export default IndexPage
 
-// const OfferWrap = styled.div`
-//   display: flex;
-//   max-width: 400px;
-//   justify-content: space-evenly;
-//   margin: 0 auto;
-// `
-
 const CardSection = styled.section`
   background-color: #66c3cc;
-  padding: 10px 10px 30px 10px;
+  padding: 10px 10px 80px 10px;
   width: 90%;
   margin: 0 auto;
   border-radius: 3px;
   box-shadow: 0 2px 5px 0 rgba(34, 67, 111, 0.14);
+  text-align: center;
 `
 
 const FaEnv = styled(FaEnvira)`

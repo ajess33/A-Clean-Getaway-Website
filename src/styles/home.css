@@ -49,14 +49,21 @@ img {
 }
 
 .paragraph--link {
-  font-size: 1.3rem;
+  color: #66c3cc;
+  background: #224364;
+  height: 40px;
+  border-radius: 3px;
+  padding: 13px 20px;
+  letter-spacing: 2px;
+  box-shadow: 0 2px 5px 0 rgba(34, 67, 111, 0.14);
   font-weight: bold;
-  color: #224364;
-  text-decoration: underline;
+  margin: 0 auto;
 }
 
 .paragraph--link:hover {
-  color: #e9eef3;
+  background: white;
+  color: #66c3cc;
+  cursor: pointer;
 }
 
 .paragraph__white {
