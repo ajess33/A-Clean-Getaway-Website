@@ -52,7 +52,7 @@ const Offer = () => {
           alt="Two hands holding up a heart"
         />
         <strong>
-          <p className="num title">
+          <p className="donation">
             ALL ON-GOING CUSTOMERS RECEIVE A DONATION TO A CHARITY OF THEIR
             CHOICE!
           </p>
@@ -173,7 +173,7 @@ const CardWrapper = styled.div`
 const OfferCard = styled.div`
   margin: 0 auto;
   color: #435c7f;
-  padding: 40px 20px;
+  padding: 100px 20px;
   text-align: center;
   font-weight: heavy;
   background: white;
@@ -200,14 +200,14 @@ const SectionTitle = styled.h3`
   font-weight: bold;
   display: inline-block;
   padding: 10px;
-  font-size: 1.5rem;
+  font-size: 2rem;
   letter-spacing: 1.8;
 `
 
 const Paragraph = styled.p`
   color: #435c7f;
   font-weight: normal;
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 2;
   max-width: 700px;
   margin: 0 auto;

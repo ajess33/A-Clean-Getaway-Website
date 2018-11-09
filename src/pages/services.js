@@ -75,7 +75,7 @@ const H4 = styled.h4`
 `
 
 const P = styled.p`
-  font-size: 0.9rem;
+  font-size: 1rem;
   text-align: left;
   color: #435c7f;
   max-width: 700px;
