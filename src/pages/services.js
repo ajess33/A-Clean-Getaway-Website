@@ -81,6 +81,7 @@ const P = styled.p`
   max-width: 700px;
   margin: 0 auto;
   padding: 0 20px 30px 20px;
+  line-height: 2;
 `
 
 class Services extends React.Component {
