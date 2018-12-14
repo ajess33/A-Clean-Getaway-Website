@@ -73,15 +73,16 @@ class Home extends React.Component {
             <SectionTitle>In Business For Over 30 Years</SectionTitle>
             <br />
             <Paragraph>
-              A Clean Getaway is a family owned, professional cleaning service
-              founded by Joanne Jess. For over 30 years, we have earned a
-              reputation as a trusted and reliable cleaning service working
-              around the <strong>Cedar Rapids area</strong>. We provide cleaning
-              services for residential and commercial customers. Our team of
-              experienced home cleaning experts can handle business and homes of
-              any shape, size, or layout. Families with children and/or pets
-              welcomed! All A Clean Getaway employees receive a background
-              screening before being hired.
+              A Clean Getaway is a professional cleaning service based out of
+              the Cedar Rapids area. We provide cleaning services for both
+              residential and commercial customers. A Clean Getaway was founded
+              by Joanne Jess over 30 years ago with trust in mind. We do this by
+              providing customers with a <strong>specialized</strong>,{' '}
+              <strong>personable</strong>, and most importantly,{' '}
+              <strong>reliable</strong> cleaning experience. All A Clean Getaway
+              employees are <strong>professionally trained</strong> and receive
+              a <strong>complete background check</strong> before joining the
+              cleaning team.
             </Paragraph>
           </Section>
           <HomeCards />

@@ -111,6 +111,9 @@ class Services extends React.Component {
   }
 }
 
+// Our services vary from customer to customer, but outlined below is our
+// basic cleaning service. We know that each house is
+
 const Residential = () => {
   return (
     <ServicesWrapper>
@@ -121,8 +124,9 @@ const Residential = () => {
         <strong>DEEP CLEAN</strong> if you decide to become a regular customer,
         you will be given a <strong>FLAT RATE</strong>. And you will{' '}
         <strong>NEVER SIGN A CONTRACT</strong>.<br /> <br /> <br />
-        Our services vary from customer to customer, but outlined below is our
-        basic cleaning service.
+        At A Clean Getaway, our cleaning routine is tailored to you. Because of
+        this, each house will be different, but outlined below is our basic
+        cleaning service.
       </P>
       <Div>
         <ServiceBox>
@@ -238,18 +242,20 @@ const Residential = () => {
   )
 }
 
+// hourly fee
+// no contracts
+// able to clean on weekends
+
 const Commercial = () => {
   return (
     <div>
       <H3>Commercial</H3>
       <P>
-        We have a low office cleaning rate that makes commercial cleaning
-        services affordable for small businesses. We charge an{' '}
-        <strong>HOURLY FEE</strong> so that you, the customer, have complete
-        control of the service we provide you with.{' '}
-        <strong>NO CONTRACTS REQUIRED</strong>. We know that your workplace
-        represents your company, so we will work hard to give you a workable
-        environment that gives your business a professional appearance.
+        Need your business cleaned? We can do that as well! We charge a{' '}
+        <strong>low hourly cleaning rate</strong> that is affordable for any
+        small business looking to keep their workplace looking it's best. We are
+        able to clean on evenings and/or on weekends so as not to disturb during
+        business hours. <strong>No contract required</strong>.
       </P>
     </div>
   )

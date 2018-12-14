@@ -56,5 +56,5 @@ export const Wrapper = styled.div`
   max-width: 1300px;
   margin: 0 auto;
   background: white;
-  box-shadow: 0 2px 5px 0 rgba(34, 67, 111, 0.14);
+  box-shadow: 8px 0 8px 5px rgba(34, 67, 111, 0.14);
 `
