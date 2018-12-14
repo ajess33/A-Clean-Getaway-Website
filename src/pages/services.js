@@ -248,7 +248,7 @@ const Residential = () => {
 
 const Commercial = () => {
   return (
-    <div>
+    <div className="padding">
       <H3>Commercial</H3>
       <P>
         Need your business cleaned? We can do that as well! We charge a{' '}
