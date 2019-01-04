@@ -175,7 +175,7 @@ const Residential = () => {
             </li>
             <li>
               <FaCheck />
-              Wipe outside of appliances and cabinents
+              Wipe outside of appliances and cabinets
             </li>
             <li>
               <FaCheck />
@@ -253,7 +253,7 @@ const Commercial = () => {
       <P>
         Need your business cleaned? We can do that as well! We charge a{' '}
         <strong>low hourly cleaning rate</strong> that is affordable for any
-        small business looking to keep their workplace looking it's best. We are
+        small business looking to keep their workplace looking its best. We are
         able to clean on evenings and/or on weekends so as not to disturb during
         business hours. <strong>No contract required</strong>.
       </P>

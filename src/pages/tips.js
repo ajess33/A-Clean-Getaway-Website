@@ -83,11 +83,11 @@ const BakingSodaTip = () => {
           baking soda. Rinse after scrubbing.
         </li>
         <li>
-          <FaLight /> Sprinkle some baking soda in the trashcan every once in a
+          <FaLight /> Sprinkle some baking soda in the trash every once in a
           while to help absord odors.
         </li>
         <li>
-          <FaLight /> Mix a decent amount of baking soda in with your litty
+          <FaLight /> Mix a decent amount of baking soda in with your kitty
           litter to cut down on odor.
         </li>
       </Ul>
