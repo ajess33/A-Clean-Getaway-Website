@@ -37,6 +37,12 @@ const Footer = () => (
       <Link className="footer__link" to="/contact/">
         Contact Us
       </Link>
+      <a
+        className="footer__link"
+        href="https://www.freeprivacypolicy.com/privacy/view/2e078912b219234418a351ee604265bc"
+      >
+        Privacy Policy
+      </a>
     </div>
     <div className="footer--info">
       <p>(319)-929-2816</p>
