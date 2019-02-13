@@ -55,12 +55,21 @@ img {
   font-weight: bold;
   margin: 0 auto;
 }
+@media (max-width: 400px) {
+  .paragraph--link {
+    font-size: 0.9rem;
+  }
+}
 
 .paragraph--link:hover {
   background: white;
   color: #66c3cc;
   cursor: pointer;
 }
+
+/* .quotes {
+  font-size: 3rem;
+} */
 
 .paragraph__white {
   color: #e9eef3;

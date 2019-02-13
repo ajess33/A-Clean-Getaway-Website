@@ -214,6 +214,10 @@ const Paragraph = styled.p`
   margin: 0 auto;
   text-align: left;
   padding-bottom: 50px;
+
+  @media (max-width: 400px) {
+    font-size: 0.9rem;
+  }
 `
 
 export const query = graphql`

@@ -48,6 +48,10 @@ class Testimonails extends React.Component {
 const Container = styled.section`
   padding: 80px 20px 60px 20px;
   text-align: center;
+
+  @media (max-width: 400px) {
+    padding: 80px 10px 60px 10px;
+  }
 `
 
 const Ul = styled.ul`
@@ -72,12 +76,22 @@ const Li = styled.li`
   box-shadow: 0 4px 4px -10px rgba(0, 0, 0, 0.1);
   width: 450px;
   display: inline-block;
+
+  @media (max-width: 400px) {
+    padding: 50px 10px;
+    width: 300px;
+    font-size: 0.8rem;
+  }
 `
 
 const PAuth = styled.p`
   text-align: right;
   color: #66c3cc;
   font-size: 1.1rem;
+
+  @media (max-width: 400px) {
+    font-size: 0.9rem;
+  }
 `
 
 export default Testimonails

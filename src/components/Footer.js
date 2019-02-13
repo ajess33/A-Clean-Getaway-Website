@@ -45,7 +45,7 @@ const Footer = () => (
       </a>
     </div>
     <div className="footer--info">
-      <p>(319)-929-2816</p>
+      <p>(319)-929-6266</p>
       <p>jjjess3219@aol.com</p>
       <p>
         A Clean Getaway, LLC

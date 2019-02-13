@@ -59,6 +59,9 @@ const ServiceBox = styled.div`
   box-shadow: 0 4px 4px -10px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   padding-top: 15px;
+  @media (max-width: 400px) {
+    height: 350px;
+  }
 `
 
 const List = styled.ul`

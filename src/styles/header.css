@@ -83,3 +83,14 @@ img {
     text-align: center;
   }
 }
+
+@media (max-width: 400px) {
+  .header {
+    height: 80vh;
+  }
+
+  .header__slogan {
+    font-size: 0.8rem;
+    padding: 10px;
+  }
+}

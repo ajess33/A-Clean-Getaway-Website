@@ -31,7 +31,11 @@ class ReviewAnimation extends React.Component {
     return (
       <Div>
         <div className="quotewrap">
-          <QuoteP>"{review.quote}"</QuoteP>
+          <QuoteP>
+            <span className="quotes">"</span>
+            {review.quote}
+            <span className="quotes">"</span>
+          </QuoteP>
           <Person>
             ~ {review.author} ({review.location})
           </Person>
@@ -50,9 +54,13 @@ const QuoteP = styled.p`
 
 const Person = styled.p`
   color: #435c7f;
-  font-size: 1rem;
+  font-size: 0.9rem;
   padding: 40px 0 60px 0;
   line-height: 2;
+
+  @media (max-width: 400px) {
+    padding: 25px 0 20px 0;
+  }
 `
 
 const Div = styled.section`
@@ -61,6 +69,10 @@ const Div = styled.section`
   border: 1px solid #e6e6e6;
   padding: 60px 80px;
   margin: 10px 0;
+
+  @media (max-width: 400px) {
+    padding: 60px 20px;
+  }
 `
 
 export default ReviewAnimation
