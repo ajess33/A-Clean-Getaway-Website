@@ -179,6 +179,11 @@ class ContactForm extends React.Component {
           data-netlify-honeypot="bot-field"
         >
           <input type="hidden" name="form-name" value="contact-form" />
+          <p className="hidden">
+            <label>
+              This is the spam catcher! <input name="bot-field" />
+            </label>
+          </p>
           <Label>
             NAME <span className="red">*</span>
           </Label>
